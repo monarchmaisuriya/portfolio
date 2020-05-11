@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{RXBc:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),r=t.n(n),o=t("Bl7J"),s=t("vrFN");t("/OlT");a.default=function(){return r.a.createElement(o.a,{className:"font-raleway",pageInfo:{pageName:"index"}},r.a.createElement(s.a,{title:"Ambiverse",keywords:["gatsby","react","bootstrap","monarch","maisuirya","ingeniousambivert","fullstack","developer"]}))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-abb0aa8101350516652b.js.map
