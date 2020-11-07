@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{RXBc:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),o=t.n(n),r=t("Bl7J"),c=t("vrFN");t("/OlT");a.default=function(){return o.a.createElement(r.a,{className:"font-raleway",pageInfo:{pageName:"index"}},o.a.createElement(c.a,{title:"Home",keywords:["gatsby","react","bootstrap"]}))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-f993317c31a06dcf7917.js.map
