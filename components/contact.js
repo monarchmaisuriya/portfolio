@@ -11,9 +11,7 @@ export default function Contact() {
                 </div>
                 <div>
                     <div className="contact-form p-10 shadow-md mx-auto mt-10 max-w-4xl md:max-w-3xl text-white">
-                        <form
-                            action="https://formspree.io/monarchmaisuriya7600@gmail.com"
-                            method="POST">
+                        <form action="https://formspree.io/f/monarchmaisuriya7600@gmail.com" method="POST">
                             <div className="flex justify-evenly">
                                 <div className="grid grid-cols-2 grid-flow-row gap-4">
                                     <div className="w-full">
