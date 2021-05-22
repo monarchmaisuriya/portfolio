@@ -27,7 +27,9 @@ export default function SKills() {
         <div id="skills" className="text-center mt-10">
             <div className="mx-auto container mb-10">
                 <div>
-                    <h1 className="text-5xl white-text-shadow md:text-6xl">All that you need</h1>
+                    <h1 className="text-5xl white-text-shadow md:text-6xl ml-2 mr-2">
+                        All that you need
+                    </h1>
                     <p className="minimal-text-shadow mt-5">My development skills are versatile</p>
                 </div>
 
