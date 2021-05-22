@@ -3,7 +3,7 @@ export default function About() {
         <div id="about" className="bg-black ">
             <div className="container mx-auto p-10">
                 <div className="text-white">
-                    <div className="text-xl md:text-2xl ml-2 mr-2">
+                    <div className="text-xl md:text-2xl md:ml-2 md:mr-2">
                         <p>
                             Hello! I am&nbsp;
                             <a

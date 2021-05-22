@@ -34,7 +34,7 @@ export default function SKills() {
                 <div className="flex flex-wrap justify-evenly">
                     <div className="mt-10">
                         <p className="minimal-text-shadow">I usually work with</p>
-                        <div className="grid grid-flow-row grid-cols-3 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
+                        <div className="grid grid-flow-row grid-cols-2 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
                             <div>
                                 <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg">
                                     <a
@@ -301,7 +301,7 @@ export default function SKills() {
                                 </button>
                             </div>
 
-                            <div className="justify-">
+                            <div>
                                 <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
                                     <a
                                         className="flex flex-row"
@@ -377,9 +377,9 @@ export default function SKills() {
                 </div>
                 <div>
                     <div className="mt-10">
-                        <p className="minimal-text-shadow ">I am also familiar with</p>
+                        <p className="minimal-text-shadow">I am also familiar with</p>
                         <div className="flex justify-evenly">
-                            <div className="grid justify-items-stretch grid-cols-3 grid-flow-row gap-2 mt-5 text-white md:grid-rows-1 md:grid-flow-col">
+                            <div className="grid justify-items-stretch grid-cols-2 grid-flow-row gap-2 mt-5 text-white md:grid-rows-1 md:grid-flow-col">
                                 <div className="justify-">
                                     <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
                                         <a

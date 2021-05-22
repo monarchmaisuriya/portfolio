@@ -21,8 +21,7 @@ export default function Work({ githubData }) {
                                     <div className="work-card-text">
                                         <p className="text-lg font-semibold mb-2">Audiencely</p>
                                         <p className="text-sm my-2">
-                                            Developed landing page. Collaborated for SEO
-                                            Optimization.
+                                            Designed website. Implemented payment gateway.
                                         </p>
                                         <p className="mt-6">
                                             <a
