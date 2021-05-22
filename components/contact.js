@@ -10,10 +10,10 @@ export default function Contact() {
                     <p className="minimal-text-shadow mt-5">Get in touch. Let's talk</p>
                 </div>
                 <div>
-                    <div className="contact-form p-10 shadow-md mx-auto mt-10 max-w-4xl md:max-w-3xl text-white">
+                    <div className="contact-form p-5 md:p-10 shadow-md mx-auto mt-10 max-w-4xl md:max-w-3xl text-white">
                         <form action="https://formspree.io/f/xrgrenzb" method="POST">
                             <div className="flex justify-evenly">
-                                <div className="grid grid-cols-2 grid-flow-row gap-4">
+                                <div className="grid grid-rows-1 md:grid-cols-2 md:grid-flow-row gap-4">
                                     <div className="w-full">
                                         <input
                                             className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full lg:w-64 xl:w-81"
@@ -48,7 +48,7 @@ export default function Contact() {
                             <div className="flex justify-center mt-5">
                                 <button
                                     type="submit"
-                                    className="icon-button group relative w-3/12 md:w-2/12 py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:text-black hover:bg-white transition duration-300">
+                                    className="icon-button group relative w-full md:w-2/12 py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:text-black hover:bg-white transition duration-300">
                                     Send
                                 </button>
                             </div>
