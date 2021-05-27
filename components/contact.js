@@ -16,7 +16,7 @@ export default function Contact() {
                                 <div className="grid grid-rows-1 md:grid-cols-2 md:grid-flow-row gap-4">
                                     <div className="w-full">
                                         <input
-                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full lg:w-64 xl:w-81"
+                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-auto lg:w-72 xl:w-81"
                                             type="text"
                                             name="Name"
                                             placeholder="John Doe"
@@ -24,7 +24,7 @@ export default function Contact() {
                                     </div>
                                     <div className="w-full">
                                         <input
-                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 w-full lg:w-64 xl:w-81"
+                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-auto lg:w-72 xl:w-81"
                                             type="email"
                                             name="Email"
                                             placeholder="john@doe.com"
@@ -37,7 +37,7 @@ export default function Contact() {
                                     <div>
                                         <textarea
                                             rows={4}
-                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 w-full"
+                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 w-full lg:w-11/12 xl:w-full"
                                             type="text"
                                             name="Message"
                                             placeholder="Languages are your power & variables your slaves."
