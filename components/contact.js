@@ -13,18 +13,18 @@ export default function Contact() {
                     <div className="contact-form p-5 md:p-10 shadow-md mx-auto mt-10 max-w-4xl md:max-w-3xl text-white">
                         <form action="https://formspree.io/f/xrgrenzb" method="POST">
                             <div className="flex justify-evenly">
-                                <div className="grid grid-rows-1 md:grid-cols-2 md:grid-flow-row gap-4">
-                                    <div className="w-full">
+                                <div className="grid grid-rows-2 grid-flow-col md:grid-cols-2 md:grid-flow-row gap-4 w-full">
+                                    <div>
                                         <input
-                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-auto lg:w-72 xl:w-81"
+                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full lg:w-72 xl:w-81"
                                             type="text"
                                             name="Name"
                                             placeholder="John Doe"
                                         />
                                     </div>
-                                    <div className="w-full">
+                                    <div>
                                         <input
-                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-auto lg:w-72 xl:w-81"
+                                            className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full lg:w-72 xl:w-81"
                                             type="email"
                                             name="Email"
                                             placeholder="john@doe.com"
