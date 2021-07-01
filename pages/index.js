@@ -32,7 +32,7 @@ export default function Main({ githubData, quote }) {
 
 export async function getServerSideProps() {
     const response = await fetch(
-        "https://api.github.com/users/ingeniousambivert/repos?per_page=100&sort=created:desc&client_id=22ea12584240e7a2631f&client_secret=bc2deb37cb23d714f3b16483ba93a4a0e61f93e9",
+        `https://api.github.com/users/ingeniousambivert/repos?per_page=300&sort=created:desc&client_id=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID}&client_secret=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_SECRET}`,
         {
             method: "GET",
             headers: {
