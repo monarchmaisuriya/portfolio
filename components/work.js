@@ -73,7 +73,8 @@ export default function Work({ githubData }) {
                             if (
                                 repo.name.search(new RegExp("ingeniousambivert", "i")) &&
                                 repo.name.search(new RegExp("^v[0-9]+$")) &&
-                                !repo.name.includes("git")
+                                !repo.name.includes("git") &&
+                                repo.fork === false
                             ) {
                                 return (
                                     <div
