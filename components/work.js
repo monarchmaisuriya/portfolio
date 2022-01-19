@@ -13,6 +13,32 @@ export default function Work({ githubData }) {
                         <div className="overflow-auto border-4 border-white max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly">
                             <div className="work-card-container">
                                 <img
+                                    src="attrione.webp"
+                                    alt="AttriOne"
+                                    className="work-card-image rounded object-cover object-center filter "
+                                />
+                                <div className="work-card-overlay">
+                                    <div className="work-card-text">
+                                        <p className="text-lg font-semibold mb-2">AttriOne</p>
+                                        <p className="text-sm my-2">
+                                            Designed website. Developed application.
+                                        </p>
+                                        <p className="mt-6">
+                                            <a
+                                                href="https://www.attri.one/"
+                                                target="_blank"
+                                                className="text-xs mt-2 text-white rounded hover:text-black transition duration-300">
+                                                Learn More
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="overflow-auto border-4 border-white max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly">
+                            <div className="work-card-container">
+                                <img
                                     src="audiencely.webp"
                                     alt="Audiencely"
                                     className="work-card-image rounded object-cover object-center filter "

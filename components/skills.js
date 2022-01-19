@@ -16,13 +16,13 @@ import {
     SiPostgresql,
     SiRedis,
     SiFirebase,
-    SiStorybook,
+    SiDocker,
     SiNextDotJs,
     SiStrapi,
-    SiStyledComponents
+    SiAmazonaws
 } from "react-icons/si";
 
-export default function SKills() {
+export default function Skills() {
     return (
         <div id="skills" className="text-center mt-10">
             <div className="mx-auto container mb-10">
@@ -214,20 +214,20 @@ export default function SKills() {
                                     </a>
                                 </button>
                             </div>
-
                             <div>
-                                <button className="bg-black text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
+                                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
                                     <a
                                         className="flex flex-row"
-                                        href="https://styled-components.com/"
+                                        href="https://aws.amazon.com/"
                                         rel="noopener noreferrer"
                                         target="_blank">
-                                        <SiStyledComponents
+                                        <SiAmazonaws
                                             style={{
-                                                fontSize: `1.75rem`
+                                                fontSize: `1.75rem`,
+                                                color: `#ffc107`
                                             }}
                                         />
-                                        &nbsp; Styled
+                                        &nbsp; AWS
                                     </a>
                                 </button>
                             </div>
@@ -340,19 +340,19 @@ export default function SKills() {
                             </div>
 
                             <div>
-                                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+                                <button className="bg-black hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
                                     <a
                                         className="flex flex-row"
-                                        href="https://storybook.js.org/"
+                                        href="https://www.docker.com/"
                                         rel="noopener noreferrer"
                                         target="_blank">
-                                        <SiStorybook
+                                        <SiDocker
                                             style={{
                                                 fontSize: `1.75rem`,
-                                                color: `#EC4384`
+                                                color: `#06ade5`
                                             }}
                                         />
-                                        StoryBook
+                                        &nbsp; Docker
                                     </a>
                                 </button>
                             </div>
@@ -383,54 +383,7 @@ export default function SKills() {
                         <div className="flex justify-evenly">
                             <div className="grid justify-items-stretch grid-cols-2 grid-flow-row gap-2 mt-5 text-white md:grid-rows-1 md:grid-flow-col">
                                 <div className="justify-">
-                                    <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                                        <a
-                                            className="flex flex-row"
-                                            href="https://dart.dev/"
-                                            rel="noopener noreferrer"
-                                            target="_blank">
-                                            <DiDart
-                                                style={{ fontSize: `1.75rem`, color: `#47B7F6` }}
-                                            />
-                                            Dart
-                                        </a>
-                                    </button>
-                                </div>
-                                <div className="justify-">
-                                    <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                                        <a
-                                            className="flex flex-row"
-                                            href="https://flutter.dev/"
-                                            rel="noopener noreferrer"
-                                            target="_blank">
-                                            <RiFlutterLine
-                                                style={{ fontSize: `1.75rem`, color: `#5CD1FB` }}
-                                            />
-                                            Flutter
-                                        </a>
-                                    </button>
-                                </div>
-
-                                <div className="justify-">
-                                    <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                                        <a
-                                            className="flex flex-row"
-                                            href="https://en.wikipedia.org/wiki/C%2B%2B"
-                                            rel="noopener noreferrer"
-                                            target="_blank">
-                                            <SiCplusplus
-                                                style={{
-                                                    fontSize: `1.75rem`,
-                                                    color: `#306998`
-                                                }}
-                                            />
-                                            &nbsp; C++
-                                        </a>
-                                    </button>
-                                </div>
-
-                                <div className="justify-">
-                                    <button className="bg-black text-white hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+                                    <button className="bg-black text-white hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg">
                                         <a
                                             className="flex flex-row"
                                             href="https://jestjs.io/"
@@ -445,20 +398,7 @@ export default function SKills() {
                                         </a>
                                     </button>
                                 </div>
-                                <div className="justify-">
-                                    <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                                        <a
-                                            className="flex flex-row"
-                                            href="https://sass-lang.com/"
-                                            rel="noopener noreferrer"
-                                            target="_blank">
-                                            <DiSass
-                                                style={{ fontSize: `1.75rem`, color: `#CF649A` }}
-                                            />
-                                            &nbsp; Sass
-                                        </a>
-                                    </button>
-                                </div>
+
                                 <div className="justify-">
                                     <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
                                         <a
