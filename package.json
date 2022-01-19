@@ -1,34 +1,24 @@
 {
-    "name": "ambiverse",
-    "version": "0.1.0",
-    "private": true,
-    "description": "A minimal portfolio of a full-stack developer",
-    "author": "Monarch Maisuriya",
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "export": "next export",
-        "start": "next start",
-        "deploy": "next build && next export && gh-pages -d out -b master",
-        "lint": "eslint --fix .",
-        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
-    },
-    "dependencies": {
-        "next": "latest",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "react-icons": "^4.2.0"
-    },
-    "devDependencies": {
-        "autoprefixer": "^10.0.4",
-        "eslint": "^7.24.0",
-        "eslint-config-prettier": "^8.2.0",
-        "eslint-plugin-jsx-a11y": "^6.4.1",
-        "eslint-plugin-react": "^7.23.2",
-        "eslint-plugin-react-hooks": "^4.2.0",
-        "gh-pages": "^3.1.0",
-        "postcss": "^8.1.10",
-        "prettier": "^2.2.1",
-        "tailwindcss": "^2.1.1"
-    }
+  "name": "ambiverse",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A minimal portfolio of a full-stack developer",
+  "author": "Monarch Maisuriya",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.1.1"
+  }
 }
