@@ -14,7 +14,7 @@ import {
   SiJest,
   SiPostgresql,
   SiRedis,
-  SiFirebase,
+  SiGooglecloud,
   SiDocker,
   SiNextdotjs,
   SiStrapi,
@@ -29,14 +29,11 @@ export default function Skills() {
           <h1 className="text-5xl white-text-shadow md:text-6xl ml-2 mr-2">
             All that you need
           </h1>
-          <p className="minimal-text-shadow mt-5">
-            My development skills are versatile
-          </p>
+          <p className="minimal-text-shadow mt-5">I usually work with</p>
         </div>
 
         <div className="flex flex-wrap justify-evenly">
           <div className="mt-10">
-            <p className="minimal-text-shadow">I usually work with</p>
             <div className="grid grid-flow-row grid-cols-2 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
               <div>
                 <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg">
@@ -117,20 +114,6 @@ export default function Skills() {
               </div>
 
               <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                  <a
-                    className="flex flex-row"
-                    href="https://www.php.net/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <SiPhp style={{ fontSize: `1.75rem`, color: `#9589e5` }} />
-                    &nbsp; PHP
-                  </a>
-                </button>
-              </div>
-
-              <div>
                 <button className="bg-black  text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
                   <a
                     className="flex flex-row"
@@ -149,7 +132,7 @@ export default function Skills() {
                 </button>
               </div>
 
-              <div>
+              {/* <div>
                 <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
                   <a
                     className="flex flex-row"
@@ -163,7 +146,7 @@ export default function Skills() {
                     Native
                   </a>
                 </button>
-              </div>
+              </div> */}
 
               <div>
                 <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
@@ -208,22 +191,21 @@ export default function Skills() {
                   </a>
                 </button>
               </div>
-
-              <div>
+              <div className="justify-">
                 <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
                   <a
                     className="flex flex-row"
-                    href="https://ejs.co/"
+                    href="https://www.postgresql.org/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <MdExplicit
+                    <SiPostgresql
                       style={{
-                        fontSize: `1.75rem`,
-                        color: `#B4CA65`,
+                        fontSize: `1.5rem`,
+                        color: `#306998`,
                       }}
                     />
-                    EJS
+                    &nbsp; Postgres
                   </a>
                 </button>
               </div>
@@ -246,44 +228,7 @@ export default function Skills() {
                 </button>
               </div>
 
-              <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                  <a
-                    className="flex flex-row"
-                    href="https://firebase.google.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <SiFirebase
-                      style={{
-                        fontSize: `1.75rem`,
-                        color: `#F5AD42`,
-                      }}
-                    />
-                    Firebase
-                  </a>
-                </button>
-              </div>
-
-              <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                  <a
-                    className="flex flex-row"
-                    href="https://tailwindcss.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <SiTailwindcss
-                      style={{
-                        fontSize: `1.75rem`,
-                        color: `#4bb7d5`,
-                      }}
-                    />
-                    &nbsp; Tailwind
-                  </a>
-                </button>
-              </div>
-              <div>
+              {/* <div>
                 <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
                   <a
                     className="flex flex-row"
@@ -300,26 +245,7 @@ export default function Skills() {
                     Git SCM
                   </a>
                 </button>
-              </div>
-
-              <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
-                  <a
-                    className="flex flex-row"
-                    href="https://redux.js.org/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <SiRedux
-                      style={{
-                        fontSize: `1.75rem`,
-                        color: `#764ABC`,
-                      }}
-                    />
-                    &nbsp; &nbsp; Redux
-                  </a>
-                </button>
-              </div>
+              </div> */}
 
               <div>
                 <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
@@ -360,6 +286,25 @@ export default function Skills() {
               </div>
 
               <div>
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+                  <a
+                    className="flex flex-row"
+                    href="https://cloud.google.com/products"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <SiGooglecloud
+                      style={{
+                        fontSize: `1.60rem`,
+                        color: `#F5AD42`,
+                      }}
+                    />
+                    &nbsp; GCP
+                  </a>
+                </button>
+              </div>
+
+              <div>
                 <button className="bg-black hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
                   <a
                     className="flex flex-row"
@@ -376,98 +321,6 @@ export default function Skills() {
                     &nbsp; Docker
                   </a>
                 </button>
-              </div>
-
-              <div className="justify-">
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                  <a
-                    className="flex flex-row"
-                    href="https://www.postgresql.org/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <SiPostgresql
-                      style={{
-                        fontSize: `1.5rem`,
-                        color: `#306998`,
-                      }}
-                    />
-                    &nbsp; PostgreSQL
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="mt-10">
-            <p className="minimal-text-shadow">I am also familiar with</p>
-            <div className="flex justify-evenly">
-              <div className="grid justify-items-stretch grid-cols-2 grid-flow-row gap-2 mt-5 text-white md:grid-rows-1 md:grid-flow-col">
-                <div className="justify-">
-                  <button className="bg-black text-white hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg">
-                    <a
-                      className="flex flex-row"
-                      href="https://jestjs.io/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <SiJest
-                        style={{
-                          fontSize: `1.5rem`,
-                        }}
-                      />
-                      Jest
-                    </a>
-                  </button>
-                </div>
-
-                <div className="justify-">
-                  <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                    <a
-                      className="flex flex-row"
-                      href="https://redis.io/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <SiRedis
-                        style={{ fontSize: `1.75rem`, color: `#d6322d` }}
-                      />
-                      &nbsp; Redis
-                    </a>
-                  </button>
-                </div>
-                <div className="justify-">
-                  <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                    <a
-                      className="flex flex-row"
-                      href="https://strapi.io/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <SiStrapi
-                        style={{ fontSize: `1.75rem`, color: `#4d3fb3` }}
-                      />
-                      &nbsp; Strapi
-                    </a>
-                  </button>
-                </div>
-
-                <div>
-                  <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
-                    <a
-                      className="flex flex-row"
-                      href="https://www.gatsbyjs.org/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      <RiGatsbyLine
-                        style={{ fontSize: `1.75rem`, color: `#ab30f2` }}
-                      />
-                      &nbsp; Gatsby
-                    </a>
-                  </button>
-                </div>
               </div>
             </div>
           </div>
