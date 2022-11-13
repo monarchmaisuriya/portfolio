@@ -44,7 +44,7 @@ export default function About() {
                 <button className="shadow-lg mt-5 md:float-right md:mt-3 text-base border-2 p-2 rounded-md mr-5 hover:bg-white hover:text-black transition duration-300">
                   <a
                     className="ml-2 mr-2"
-                    href="https://docs.google.com/document/d/e/2PACX-1vTNN2X5hgN6-xdVNsnb0wmUhvZTeQ68Atu735bQkbfiBG_45D3EObyhdbd0eShR4U8XObWqkwW0PzvB/pub"
+                    href="https://drive.google.com/file/d/1w_qDhpy1OhqGM9Ji6NHLi2Yhgw37IP_G/view"
                     target="_blank"
                   >
                     View Resume
