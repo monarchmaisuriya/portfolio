@@ -1,23 +1,18 @@
-import { RiReactjsLine, RiGatsbyLine } from "react-icons/ri";
-import { DiReact, DiMysql, DiMongodb, DiPython } from "react-icons/di";
-import { MdExplicit } from "react-icons/md";
-import { FiGitPullRequest } from "react-icons/fi";
+import { RiReactjsLine } from "react-icons/ri";
+import { DiMysql, DiMongodb, DiPython } from "react-icons/di";
+import { TbBrandReactNative } from "react-icons/tb";
 import { TiFlash } from "react-icons/ti";
-import { GiFeather, GiChiliPepper } from "react-icons/gi";
+import { FiGitPullRequest } from "react-icons/fi";
+import { GiFeather } from "react-icons/gi";
 import {
-  SiPhp,
   SiTypescript,
   SiJavascript,
-  SiRedux,
-  SiTailwindcss,
-  SiEtsy,
   SiJest,
   SiPostgresql,
-  SiRedis,
+  SiVercel,
   SiGooglecloud,
   SiDocker,
   SiNextdotjs,
-  SiStrapi,
   SiAmazonaws,
 } from "react-icons/si";
 
@@ -36,7 +31,7 @@ export default function Skills() {
           <div className="mt-10">
             <div className="grid grid-flow-row grid-cols-2 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
               <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg">
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
                   <a
                     className="flex flex-row"
                     href="https://javascript.info/"
@@ -46,12 +41,12 @@ export default function Skills() {
                     <SiJavascript
                       style={{ fontSize: `1.75rem`, color: `#f2db30` }}
                     />
-                    &nbsp; JavaScript
+                    &nbsp;JavaScript
                   </a>
                 </button>
               </div>
 
-              <div>
+              {/* <div>
                 <button className="bg-black text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg">
                   <a
                     className="flex flex-row"
@@ -63,10 +58,10 @@ export default function Skills() {
                     Feathers
                   </a>
                 </button>
-              </div>
+              </div> */}
 
               <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg">
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
                   <a
                     className="flex flex-row"
                     href="https://www.typescriptlang.org/"
@@ -76,13 +71,13 @@ export default function Skills() {
                     <SiTypescript
                       style={{ fontSize: `1.75rem`, color: `#3178C6` }}
                     />
-                    &nbsp; TypeScript
+                    &nbsp;TypeScript
                   </a>
                 </button>
               </div>
 
               <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg    ">
                   <a
                     className="flex flex-row"
                     href="https://reactjs.org/"
@@ -92,13 +87,13 @@ export default function Skills() {
                     <RiReactjsLine
                       style={{ fontSize: `1.75rem`, color: `#56C1DE` }}
                     />
-                    React
+                    &nbsp;React
                   </a>
                 </button>
               </div>
 
               <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
                   <a
                     className="flex flex-row"
                     href="https://www.python.org/"
@@ -108,12 +103,12 @@ export default function Skills() {
                     <DiPython
                       style={{ fontSize: `1.75rem`, color: `#306998` }}
                     />
-                    Python
+                    &nbsp;Python
                   </a>
                 </button>
               </div>
 
-              <div>
+              {/* <div>
                 <button className="bg-black  text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
                   <a
                     className="flex flex-row"
@@ -130,26 +125,26 @@ export default function Skills() {
                     Express
                   </a>
                 </button>
-              </div>
+              </div> */}
 
-              {/* <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+              <div>
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
                   <a
                     className="flex flex-row"
                     href="https://reactnative.dev/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <DiReact
+                    <TbBrandReactNative
                       style={{ fontSize: `1.75rem`, color: `#E67972` }}
                     />
-                    Native
+                    &nbsp;Native
                   </a>
                 </button>
-              </div> */}
+              </div>
 
-              <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+              {/* <div>
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
                   <a
                     className="flex flex-row"
                     href="https://fastapi.tiangolo.com/"
@@ -162,7 +157,7 @@ export default function Skills() {
                     FastAPI
                   </a>
                 </button>
-              </div>
+              </div> */}
 
               <div>
                 <button className="bg-black text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
@@ -173,26 +168,13 @@ export default function Skills() {
                     target="_blank"
                   >
                     <SiNextdotjs style={{ fontSize: `1.75rem` }} />
-                    &nbsp; Next
+                    &nbsp;Next
                   </a>
                 </button>
               </div>
 
-              <div>
-                <button className="bg-black text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
-                  <a
-                    className="flex flex-row"
-                    href="https://flask.palletsprojects.com/en/1.1.x/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <GiChiliPepper style={{ fontSize: `1.75rem` }} />
-                    Flask
-                  </a>
-                </button>
-              </div>
               <div className="justify-">
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
                   <a
                     className="flex flex-row"
                     href="https://www.postgresql.org/"
@@ -205,12 +187,12 @@ export default function Skills() {
                         color: `#306998`,
                       }}
                     />
-                    &nbsp; Postgres
+                    &nbsp;Postgres
                   </a>
                 </button>
               </div>
               <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
                   <a
                     className="flex flex-row"
                     href="https://aws.amazon.com/"
@@ -223,13 +205,13 @@ export default function Skills() {
                         color: `#ffc107`,
                       }}
                     />
-                    &nbsp; AWS
+                    &nbsp;AWS
                   </a>
                 </button>
               </div>
 
-              {/* <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+              <div>
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
                   <a
                     className="flex flex-row"
                     href="https://git-scm.com/"
@@ -242,13 +224,13 @@ export default function Skills() {
                         color: `#ED4C34`,
                       }}
                     />
-                    Git SCM
+                    &nbsp;Git
                   </a>
                 </button>
-              </div> */}
+              </div>
 
               <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
                   <a
                     className="flex flex-row"
                     href="https://www.mysql.com/"
@@ -261,13 +243,13 @@ export default function Skills() {
                         color: ` #389fe0`,
                       }}
                     />
-                    MySQL
+                    &nbsp;MySQL
                   </a>
                 </button>
               </div>
 
               <div className="justify-">
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
                   <a
                     className="flex flex-row my-auto"
                     href="https://www.mongodb.com/"
@@ -280,7 +262,7 @@ export default function Skills() {
                         color: `#4A944C`,
                       }}
                     />
-                    &nbsp; MongoDB
+                    &nbsp;MongoDB
                   </a>
                 </button>
               </div>
@@ -299,7 +281,26 @@ export default function Skills() {
                         color: `#F5AD42`,
                       }}
                     />
-                    &nbsp; GCP
+                    &nbsp;GCP
+                  </a>
+                </button>
+              </div>
+
+              <div>
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
+                  <a
+                    className="flex flex-row"
+                    href="https://jestjs.io/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <SiJest
+                      style={{
+                        fontSize: `1.60rem`,
+                        color: `#F44336`,
+                      }}
+                    />
+                    &nbsp;Jest
                   </a>
                 </button>
               </div>
@@ -318,7 +319,25 @@ export default function Skills() {
                         color: `#06ade5`,
                       }}
                     />
-                    &nbsp; Docker
+                    &nbsp;Docker
+                  </a>
+                </button>
+              </div>
+
+              <div>
+                <button className="bg-black text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
+                  <a
+                    className="flex flex-row"
+                    href="https://vercel.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <SiVercel
+                      style={{
+                        fontSize: `1.5rem`,
+                      }}
+                    />
+                    &nbsp;Vercel
                   </a>
                 </button>
               </div>
