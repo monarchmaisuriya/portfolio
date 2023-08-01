@@ -4,6 +4,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 import { TiFlash } from "react-icons/ti";
 import { FiGitPullRequest } from "react-icons/fi";
 import { GiFeather } from "react-icons/gi";
+import { FaNodeJs } from "react-icons/fa";
 import {
   SiTypescript,
   SiJavascript,
@@ -104,6 +105,22 @@ export default function Skills() {
                       style={{ fontSize: `1.75rem`, color: `#306998` }}
                     />
                     &nbsp;Python
+                  </a>
+                </button>
+              </div>
+
+              <div>
+                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+                  <a
+                    className="flex flex-row"
+                    href="https://nodejs.org/en"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <FaNodeJs
+                      style={{ fontSize: `1.75rem`, color: `#43A047` }}
+                    />
+                    &nbsp;NodeJS
                   </a>
                 </button>
               </div>
@@ -320,24 +337,6 @@ export default function Skills() {
                       }}
                     />
                     &nbsp;Docker
-                  </a>
-                </button>
-              </div>
-
-              <div>
-                <button className="bg-black text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
-                  <a
-                    className="flex flex-row"
-                    href="https://vercel.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <SiVercel
-                      style={{
-                        fontSize: `1.5rem`,
-                      }}
-                    />
-                    &nbsp;Vercel
                   </a>
                 </button>
               </div>
