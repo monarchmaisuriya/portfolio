@@ -18,10 +18,10 @@ export default function Footer({ quote }) {
 						<p>
 							<a
 								target="_blank"
-								href="https://about.me/monarchmaisuriya"
+								href="https://www.linkedin.com/in/monarchmaisuriya/ "
 								className="hover:text-gray-300"
 							>
-								about.me
+								LinkedIn
 							</a>
 						</p>
 					</div>

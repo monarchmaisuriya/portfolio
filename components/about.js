@@ -9,7 +9,7 @@ export default function About() {
 					Hello! I am&nbsp;
 					<a
 						className="text-blue-400 hover:text-blue-500 transition duration-300"
-						href="https://www.linkedin.com/in/monarchmaisuriya/"
+						href="https://about.me/monarchmaisuriya"
 						target="_blank"
 					>
 						Monarch
