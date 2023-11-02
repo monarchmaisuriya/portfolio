@@ -21,7 +21,7 @@ export default function Footer({ quote }) {
 								href="https://www.linkedin.com/in/monarchmaisuriya/ "
 								className="hover:text-gray-300"
 							>
-								LinkedIn
+								Connect With Me
 							</a>
 						</p>
 					</div>
