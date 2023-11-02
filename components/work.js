@@ -15,7 +15,7 @@ export default function Work({ githubData }) {
 					</h1>
 					<p className="minimal-text-shadow mt-5">Some of my recent projects</p>
 					<div className="grid grid-rows-1 grid-flow-col gap-4 overflow-x-auto mt-10 py-4">
-						<div className="overflow-auto border-5 border-green-500 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-5 border-green-400 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="wagease.webp"
@@ -48,7 +48,7 @@ export default function Work({ githubData }) {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-5 border-indigo-600 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-5 border-indigo-500 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="tenacity.webp"
@@ -81,7 +81,7 @@ export default function Work({ githubData }) {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-5 border-indigo-400 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-5 border-indigo-300 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="attrione.webp"
