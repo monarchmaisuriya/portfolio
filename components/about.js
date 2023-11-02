@@ -20,17 +20,17 @@ export default function About() {
 					interfaces and writing code that effortlessly solves problems.
 					Innovating new features and services to supercharge applications is
 					where I thrive. I confidently collaborate with individuals & teams who
-					share my energy and drive. If you're looking build something
-					remarkable,&nbsp;
+					share my energy and drive. I turn innovative ideas into functional
+					code, and I love what I do.
+				</p>
+				<p>
+					If you're looking build something remarkable,&nbsp;
 					<a
 						className="text-blue-400 hover:text-blue-500 transition duration-300"
 						href="#contact"
 					>
 						I'm just a message away.
 					</a>
-				</p>
-				<p>
-					I turn innovative ideas into functional code, and I love what I do.
 				</p>
 			</div>
 		</div>
