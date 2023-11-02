@@ -24,12 +24,12 @@ export default function About() {
 					code, and I love what I do.
 				</p>
 				<p>
-					If you're looking build something remarkable,&nbsp;
+					If you're looking build something remarkable, I'm just a&nbsp;
 					<a
 						className="text-blue-400 hover:text-blue-500 transition duration-300"
 						href="#contact"
 					>
-						I'm just a message away.
+						message away.
 					</a>
 				</p>
 			</div>
