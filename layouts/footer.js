@@ -9,19 +9,19 @@ export default function Footer({ quote }) {
 					<div className="text-center md:text-right">
 						<p>
 							<a
-								href="mailto:monarchmaisuriya@gmail.com"
-								className="hover:text-gray-300"
-							>
-								monarchmaisuriya@gmail.com
-							</a>
-						</p>
-						<p>
-							<a
 								target="_blank"
 								href="https://www.linkedin.com/in/monarchmaisuriya/ "
 								className="hover:text-gray-300"
 							>
 								Connect With Me
+							</a>
+						</p>
+						<p>
+							<a
+								href="mailto:monarchmaisuriya@gmail.com"
+								className="hover:text-gray-300"
+							>
+								monarchmaisuriya@gmail.com
 							</a>
 						</p>
 					</div>
