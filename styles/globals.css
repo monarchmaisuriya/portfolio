@@ -2,135 +2,126 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
-
 html {
-    scroll-behavior: smooth;
-}
-
-html,
-body,
-p {
-    font-family: "Noto Sans JP", sans-serif;
+	scroll-behavior: smooth;
+	font-family: "Poppins", sans-serif;
 }
 
 html::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
 input {
-    border: "none";
+	border: "none";
 }
 
 #hero-text {
-    background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
-    -webkit-background-clip: text;
-    text-transform: "capitalize";
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Oswald", sans-serif;
+	background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
+	-webkit-background-clip: text;
+	text-transform: "capitalize";
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .amazing-text-shadow {
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-        0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
-        0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
-        0 20px 20px rgba(0, 0, 0, 0.15);
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+		0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+		0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+		0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+		0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 .white-text-shadow {
-    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
 }
 .black-text-shadow {
-    text-shadow: 1px 1px 2px rgba(5, 5, 5, 0.55);
+	text-shadow: 1px 1px 2px rgba(5, 5, 5, 0.55);
 }
 .amazing-text-shadow {
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
-        0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
-        0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
-        0 20px 20px rgba(0, 0, 0, 0.15);
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+		0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+		0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+		0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+		0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 .minimal-text-shadow {
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), 0px 6px 10px rgba(0, 0, 0, 0.1),
-        0px 16px 20px rgba(0, 0, 0, 0.1);
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), 0px 6px 10px rgba(0, 0, 0, 0.1),
+		0px 16px 20px rgba(0, 0, 0, 0.1);
 }
 .icon-button {
-    border: none;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	border: none;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .element-shadow {
-    border: none;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	border: none;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .contact-form {
-    border-radius: 5px;
-    background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
+	border-radius: 5px;
+	background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
+	/* background: #9d50bb;
+	background: -webkit-linear-gradient(to right, #6e48aa, #9d50bb);
+	background: linear-gradient(to right, #6e48aa, #9d50bb); */
 }
 
 .gradient-bg {
-    background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
-}
-
-#work {
-    background: #ef6d87;
+	background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
+	/* background: #9d50bb;
+	background: -webkit-linear-gradient(to right, #6e48aa, #9d50bb);
+	background: linear-gradient(to right, #6e48aa, #9d50bb); */
 }
 
 .no-word-break {
-    white-space: nowrap;
-    word-break: keep-all;
+	white-space: nowrap;
+	word-break: keep-all;
 }
 
 .work-card-container {
-    position: relative;
+	position: relative;
 }
 
 .work-card-image {
-    display: block;
-    width: 100%;
-    height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .work-card-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s ease;
-    background-color: #fff;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: #fff;
 }
 
 .work-card-container:hover .work-card-overlay {
-    opacity: 1;
+	opacity: 1;
 }
 
 .work-card-text {
-    position: absolute;
-    top: 50%;
-    color: #000;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+	position: absolute;
+	top: 50%;
+	color: #000;
+	left: 50%;
+	width: 75%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 .work-card-text a {
-    padding: 0.5rem;
-    background: #ef6d87;
+	color: #000;
+	text-decoration: underline;
+}
+.work-card-text a:hover {
+	color: #6e48aa;
 }

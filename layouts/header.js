@@ -2,9 +2,9 @@ import { SiUpwork, SiMedium } from "react-icons/si";
 import { RiGithubLine, RiLinkedinFill } from "react-icons/ri";
 
 export default function Header() {
-  return (
-    <div className="mx-auto bg-black p-5 text-white rounded-t-lg container">
-      <nav className="flex flex-wrap justify-between">
+	return (
+		<div className="mx-auto bg-black p-2 text-white rounded-t-lg container border-4 border-white border-b-0">
+			{/* <nav className="flex flex-wrap justify-between">
         <div>
           <img src="/favicon.png" alt="logo" width={30} height={30} />
         </div>
@@ -39,7 +39,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
-  );
+      </nav> */}
+		</div>
+	);
 }
