@@ -1,6 +1,6 @@
-import Meta from "../components/meta.js";
-import Footer from "../layouts/footer";
+import Meta from "../components/meta";
 import Header from "../layouts/header";
+import Footer from "../layouts/footer";
 import About from "../components/about";
 import Skills from "../components/skills";
 import Work from "../components/work";
@@ -12,17 +12,15 @@ export default function Main({ githubData, quote }) {
 	return (
 		<div>
 			<Meta />
-			<div className="flex justify-center flex-col min-h-screen gradient-bg font-modern">
+			<div className="flex justify-center flex-col min-h-screen bg-gradient-to-bottom font-modern">
 				<main className="flex-grow">
-					<div className="px-5 md:px-32">
-						<div className="bg-white container rounded-lg mx-auto my-5 md:my-28">
-							<Header />
-							<About />
-							<Skills />
-							<Work githubData={githubData} />
-							<Contact />
-							<Footer quote={quote} />
-						</div>
+					<div className="rounded-lg mx-auto my-5 md:my-24 px-5 md:px-32">
+						<Header />
+						<About />
+						<Skills />
+						<Work githubData={githubData} />
+						<Contact />
+						<Footer quote={quote} />
 					</div>
 				</main>
 			</div>

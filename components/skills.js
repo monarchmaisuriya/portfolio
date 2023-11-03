@@ -19,18 +19,20 @@ import {
 
 export default function Skills() {
 	return (
-		<div className="border-4 border-white border-t-0">
+		<div className="border-4 bg-white  border-white border-t-0">
 			<div id="skills" className="text-center pt-10 mb-20 ">
 				<div className="mx-auto container mb-10">
 					<div>
 						<h1 className="font-classic text-5xl white-text-shadow md:text-6xl ml-2 mr-2">
 							All that you need
 						</h1>
-						<p className="minimal-text-shadow mt-5">I usually work with</p>
+						<p className="minimal-text-shadow mt-5 text-sm">
+							I usually work with
+						</p>
 					</div>
 
 					<div className="flex flex-wrap justify-evenly">
-						<div className="mt-10">
+						<div className="mt-6">
 							<div className="grid grid-flow-row grid-cols-2 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
 								<div>
 									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">

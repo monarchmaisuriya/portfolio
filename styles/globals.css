@@ -15,10 +15,20 @@ input {
 	border: "none";
 }
 
-#hero-text {
-	background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
+.bg-clip-text {
 	-webkit-background-clip: text;
-	text-transform: "capitalize";
+	background-clip: text;
+}
+
+.text-transparent {
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+}
+
+.gradient-text {
+	background: linear-gradient(to right, #ff9a8b, #c779d0, #4bc0c8);
+	-webkit-background-clip: text;
+	color: transparent;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -57,21 +67,6 @@ input {
 .element-shadow {
 	border: none;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-
-.contact-form {
-	border-radius: 5px;
-	background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
-	/* background: #9d50bb;
-	background: -webkit-linear-gradient(to right, #6e48aa, #9d50bb);
-	background: linear-gradient(to right, #6e48aa, #9d50bb); */
-}
-
-.gradient-bg {
-	background: linear-gradient(to bottom, #ff9a8b, #c779d0, #4bc0c8);
-	/* background: #9d50bb;
-	background: -webkit-linear-gradient(to right, #6e48aa, #9d50bb);
-	background: linear-gradient(to right, #6e48aa, #9d50bb); */
 }
 
 .no-word-break {
