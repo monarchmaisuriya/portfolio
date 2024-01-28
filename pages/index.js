@@ -1,25 +1,15 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import Meta from "../components/meta";
 import Header from "../layouts/header";
 import Footer from "../layouts/footer";
 import About from "../components/about";
 import Skills from "../components/skills";
 import Work from "../components/work";
-import Nav from "../components/nav";
 import Contact from "../components/contact";
 
 import { randomQuote } from "../utils";
 
 export default function Main({ githubData, quote }) {
-	const mappings = {
-		0: "About",
-		1: "Skills",
-		2: "Work",
-		3: "Contact",
-	};
-	const [current, setCurrent] = React.useState(mappings[0]);
-
 	return (
 		<div>
 			<Meta />
@@ -27,27 +17,12 @@ export default function Main({ githubData, quote }) {
 				<main className="flex-grow">
 					<div className="rounded-lg mx-auto my-6 px-6">
 						<Header />
-						<Swiper
-							spaceBetween={25}
-							slidesPerView={1}
-							onActiveIndexChange={({ activeIndex }) => {
-								setCurrent(mappings[activeIndex]);
-							}}
-						>
-							<SwiperSlide>
-								<About />
-							</SwiperSlide>
-							<SwiperSlide>
-								<Skills />
-							</SwiperSlide>
-							<SwiperSlide>
-								<Work githubData={githubData} />
-							</SwiperSlide>
-							<SwiperSlide>
-								<Contact />
-							</SwiperSlide>
-						</Swiper>
-						<Nav list={mappings} current={current} setCurrent={setCurrent} />
+						<div className="overflow-y-auto h-544">
+							<About />
+							<Skills />
+							<Work githubData={githubData} />
+							<Contact />
+						</div>
 						<Footer quote={quote} />
 					</div>
 				</main>

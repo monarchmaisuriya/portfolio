@@ -20,7 +20,7 @@ import {
 
 export default function Skills() {
 	return (
-		<div className="mx-auto bg-white border-4 container border-black h-544 overflow-auto">
+		<div className="mx-auto bg-white border-4 container border-black ">
 			<div id="skills" className="text-center pt-10 mb-20 ">
 				<div className="mx-auto container mb-10">
 					<div>

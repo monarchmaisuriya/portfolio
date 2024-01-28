@@ -2,7 +2,7 @@ export default function About() {
 	return (
 		<div
 			id="about"
-			className="mx-auto bg-black text-white border-4 container border-white h-544 overflow-auto"
+			className="mx-auto bg-black text-white border-4 container border-white "
 		>
 			<div className="mx-auto container p-10 pb-20 text-xl md:text-2xl md:ml-2 md:mr-2">
 				<div className="text-center">
