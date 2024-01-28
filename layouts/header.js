@@ -6,7 +6,9 @@ export default function Header() {
 		<div className="mx-auto container bg-black px-4 py-4 text-white rounded-t-lg border-4 border-white mb-4">
 			<div className="flex container justify-between">
 				<div>
-					<img src="/favicon.png" alt="logo" width={25} height={25} />
+					<a href="https://about.me/monarchmaisuriya" target="_blank">
+						<img src="/favicon.png" alt="logo" width={25} height={25} />
+					</a>
 				</div>
 				<div>
 					<ul className="flex flex-row">
