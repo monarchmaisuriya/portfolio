@@ -4,7 +4,7 @@ export default function Work({ githubData }) {
 	return (
 		<div
 			id="work"
-			className="text-white bg-black py-10 border-4 border-white border-t-0 border-b-0"
+			className="mx-auto text-white bg-black border-4 container border-white h-544 overflow-auto"
 		>
 			<div className="container mx-auto p-10 text-center">
 				<div>
@@ -203,7 +203,7 @@ export default function Work({ githubData }) {
 					</div>
 				</div> */}
 				<div className="flex justify-center mt-5">
-					<button className="shadow-lg relative w-auto py-2 px-4 border-2 border-white text-sm font-bold rounded-md text-white bg-black hover:text-black hover:bg-white transition duration-300">
+					<button className="shadow-lg relative w-auto py-2 px-4 md:border-2 md:border-white text-sm font-bold rounded-md text-white bg-black md:hover:text-black md:hover:bg-white transition duration-300">
 						<a
 							href="https://github.com/ingeniousambivert?tab=repositories"
 							target="_blank"

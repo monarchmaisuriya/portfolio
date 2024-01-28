@@ -11,6 +11,17 @@ module.exports = {
 			"gray-950": "#111111",
 		}),
 		extend: {
+			maxHeight: {
+				768: "48rem",
+			},
+			height: {
+				448: "28rem",
+				512: "32rem",
+				544: "34rem",
+				576: "36rem",
+				608: "38rem",
+				768: "48rem",
+			},
 			backgroundImage: {
 				"gradient-to-right":
 					"linear-gradient(to right, #ff9a8b, #c779d0, #4bc0c8)",

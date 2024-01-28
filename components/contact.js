@@ -3,7 +3,10 @@ import { RiGithubLine, RiLinkedinFill } from "react-icons/ri";
 
 export default function Contact() {
 	return (
-		<div id="contact" className="bg-white border-4 border-white border-t-0">
+		<div
+			id="contact"
+			className="mx-auto bg-white border-4 border-black container h-544 overflow-auto"
+		>
 			<div className="container mx-auto pt-10 pb-20 text-center">
 				<div>
 					<h1 className="text-5xl white-text-shadow md:text-6xl font-classic">

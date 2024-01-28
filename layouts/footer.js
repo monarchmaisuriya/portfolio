@@ -1,15 +1,18 @@
+import { SiUpwork, SiMedium } from "react-icons/si";
+import { RiGithubLine, RiLinkedinFill } from "react-icons/ri";
+
 export default function Footer({ quote }) {
 	const date = new Date();
 	const currentYear = date.getFullYear();
 	return (
-		<footer className=" bg-black text-white rounded-b-lg border-4 border-white border-t-0">
-			<div className="container mx-auto p-10">
-				<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-					<div>
+		<footer className="mx-auto bg-black p-2 text-white rounded-b-lg container border-4 border-white mt-2">
+			<div className="container mx-auto px-4 my-3">
+				<div className="grid grid-cols-1 gap-4 md:grid-cols-6">
+					<div className="md:col-span-4">
 						<p className="italic">{quote}</p>
 					</div>
-					<div className="text-center md:text-right">
-						<p>
+					<div className="text-center md:text-right md:col-span-2">
+						{/* <p>
 							<a
 								target="_blank"
 								href="https://www.linkedin.com/in/monarchmaisuriya/ "
@@ -17,7 +20,7 @@ export default function Footer({ quote }) {
 							>
 								Connect With Me
 							</a>
-						</p>
+						</p> */}
 						<p>
 							<a
 								href="mailto:monarchmaisuriya@gmail.com"
@@ -29,12 +32,12 @@ export default function Footer({ quote }) {
 					</div>
 				</div>
 			</div>
-			<div className="mx-auto mb-6">
+			{/* <div className="mx-auto mb-2">
 				<div className="flex flex-row justify-center items-center gap-3">
 					<img src="/favicon.png" alt="logo" width={15} height={15} />
 					<span className="font-bold">&copy; {currentYear} </span>
 				</div>
-			</div>
+			</div> */}
 		</footer>
 	);
 }

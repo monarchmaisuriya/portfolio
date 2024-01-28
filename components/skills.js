@@ -10,7 +10,8 @@ import {
 	SiJavascript,
 	SiJest,
 	SiPostgresql,
-	SiVercel,
+	SiEtsy,
+	SiCypress,
 	SiGooglecloud,
 	SiDocker,
 	SiNextdotjs,
@@ -19,7 +20,7 @@ import {
 
 export default function Skills() {
 	return (
-		<div className="border-4 bg-white  border-white border-t-0">
+		<div className="mx-auto bg-white border-4 container border-black h-544 overflow-auto">
 			<div id="skills" className="text-center pt-10 mb-20 ">
 				<div className="mx-auto container mb-10">
 					<div>
@@ -35,7 +36,7 @@ export default function Skills() {
 						<div className="mt-6">
 							<div className="grid grid-flow-row grid-cols-2 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
 										<a
 											className="flex flex-row"
 											href="https://javascript.info/"
@@ -50,22 +51,22 @@ export default function Skills() {
 									</button>
 								</div>
 
-								{/* <div>
-                <button className="bg-black text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg">
-                  <a
-                    className="flex flex-row"
-                    href="https://docs.feathersjs.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <GiFeather style={{ fontSize: `1.75rem` }} />
-                    Feathers
-                  </a>
-                </button>
-              </div> */}
+								<div>
+									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 shadow-lg">
+										<a
+											className="flex flex-row"
+											href="https://docs.feathersjs.com/"
+											rel="noopener noreferrer"
+											target="_blank"
+										>
+											<GiFeather style={{ fontSize: `1.75rem` }} />
+											Feathers
+										</a>
+									</button>
+								</div>
 
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
 										<a
 											className="flex flex-row"
 											href="https://www.typescriptlang.org/"
@@ -81,7 +82,7 @@ export default function Skills() {
 								</div>
 
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
 										<a
 											className="flex flex-row"
 											href="https://nodejs.org/en"
@@ -97,7 +98,7 @@ export default function Skills() {
 								</div>
 
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg    ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg    ">
 										<a
 											className="flex flex-row"
 											href="https://reactjs.org/"
@@ -113,7 +114,7 @@ export default function Skills() {
 								</div>
 
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
 										<a
 											className="flex flex-row"
 											href="https://www.python.org/"
@@ -128,26 +129,8 @@ export default function Skills() {
 									</button>
 								</div>
 
-								{/* <div>
-                <button className="bg-black  text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
-                  <a
-                    className="flex flex-row"
-                    href="https://expressjs.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <SiEtsy
-                      style={{
-                        fontSize: `1.25rem`,
-                        margin: `0.28rem`,
-                      }}
-                    />
-                    Express
-                  </a>
-                </button>
-              </div> */}
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
 										<a
 											className="flex flex-row"
 											href="https://git-scm.com/"
@@ -165,24 +148,24 @@ export default function Skills() {
 									</button>
 								</div>
 
-								{/* <div>
-                <button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
-                  <a
-                    className="flex flex-row"
-                    href="https://fastapi.tiangolo.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <TiFlash
-                      style={{ fontSize: `1.75rem`, color: `#3F9586` }}
-                    />
-                    FastAPI
-                  </a>
-                </button>
-              </div> */}
+								<div>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+										<a
+											className="flex flex-row"
+											href="https://fastapi.tiangolo.com/"
+											rel="noopener noreferrer"
+											target="_blank"
+										>
+											<TiFlash
+												style={{ fontSize: `1.75rem`, color: `#3F9586` }}
+											/>
+											FastAPI
+										</a>
+									</button>
+								</div>
 
 								<div>
-									<button className="bg-black text-white hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
+									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 shadow-lg  ">
 										<a
 											className="flex flex-row "
 											href="https://nextjs.org/"
@@ -196,7 +179,7 @@ export default function Skills() {
 								</div>
 
 								<div className="justify-">
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
 										<a
 											className="flex flex-row"
 											href="https://www.postgresql.org/"
@@ -214,7 +197,7 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
 										<a
 											className="flex flex-row"
 											href="https://reactnative.dev/"
@@ -228,8 +211,28 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
+
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+									<button className="bg-black  text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 shadow-lg  ">
+										<a
+											className="flex flex-row"
+											href="https://expressjs.com/"
+											rel="noopener noreferrer"
+											target="_blank"
+										>
+											<SiCypress
+												style={{
+													fontSize: `1.25rem`,
+													margin: `0.28rem`,
+												}}
+											/>
+											Cypress
+										</a>
+									</button>
+								</div>
+
+								<div>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
 										<a
 											className="flex flex-row"
 											href="https://aws.amazon.com/"
@@ -248,7 +251,7 @@ export default function Skills() {
 								</div>
 
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
 										<a
 											className="flex flex-row"
 											href="https://www.mysql.com/"
@@ -267,7 +270,7 @@ export default function Skills() {
 								</div>
 
 								<div className="justify-">
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg   ">
 										<a
 											className="flex flex-row my-auto"
 											href="https://www.mongodb.com/"
@@ -286,7 +289,7 @@ export default function Skills() {
 								</div>
 
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg  ">
 										<a
 											className="flex flex-row"
 											href="https://cloud.google.com/products"
@@ -305,7 +308,7 @@ export default function Skills() {
 								</div>
 
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 shadow-lg ">
 										<a
 											className="flex flex-row"
 											href="https://jestjs.io/"
@@ -324,7 +327,7 @@ export default function Skills() {
 								</div>
 
 								<div>
-									<button className="bg-black hover:bg-white hover:text-black rounded-xl p-3 shadow-lg  ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 shadow-lg  ">
 										<a
 											className="flex flex-row"
 											href="https://www.docker.com/"

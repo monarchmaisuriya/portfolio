@@ -2,7 +2,7 @@ export default function About() {
 	return (
 		<div
 			id="about"
-			className="bg-black text-white border-4 border-white border-t-0 border-b-0"
+			className="mx-auto bg-black text-white border-4 container border-white h-544 overflow-auto"
 		>
 			<div className="mx-auto container p-10 pb-20 text-xl md:text-2xl md:ml-2 md:mr-2">
 				<div className="text-center">
@@ -11,7 +11,7 @@ export default function About() {
 					</h1>
 					<p className="minimal-text-shadow my-5 text-sm">Glad to see you</p>
 				</div>
-				<div className="md:mx-10 mt-10">
+				<div className="md:mx-10 mt-10 font-medium">
 					<p>
 						I am&nbsp;
 						<a
@@ -21,14 +21,19 @@ export default function About() {
 						>
 							Monarch
 						</a>
-						, an adept, driven & self-directed software developer. My expertise
-						spans the entire realm of development, from the front-end to the
-						back-end. I'm all about building robust systems, crafting sleek
-						interfaces and writing code that effortlessly solves problems.
-						Innovating new features and services to supercharge applications is
-						where I thrive. I confidently collaborate with individuals & teams
-						who share my energy and drive. I turn innovative ideas into
-						functional code, and I love what I do.
+						, an adept, driven & self-directed and driven software engineer with
+						a passion for creating cutting-edge solutions. As an inquisitive
+						experimenter, I thrive on transforming complex ideas into practical
+						code, turning novel concepts into reality.
+					</p>
+					<p>
+						My professional journey is defined by a commitment to turning ideas
+						into tangible successes. I specialize in leveraging my skills to
+						build robust and innovative solutions that meet and exceed
+						expectations. Life, for me, is a continuous cycle of experiments and
+						experiences, shaping my approach to software engineering and driving
+						me to explore new horizons in the ever-evolving tech landscape. I
+						love what I do.
 					</p>
 					<p>
 						If you're looking build something remarkable, I'm just a&nbsp;
