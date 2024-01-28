@@ -56,7 +56,7 @@ export default function Contact() {
 								<button
 									id="contact-submit"
 									type="submit"
-									className="icon-button group relative w-full md:w-2/12 py-2 px-4 border border-transparent text-sm font-medium rounded-md  bg-black md:text-white hover:text-gray-200 transition duration-300"
+									className="icon-button group relative w-full md:w-2/12 py-2 px-4 text-sm font-medium rounded-md hover:bg-white hover:text-black border-2 bg-black text-white hover:border-black transition duration-300"
 								>
 									Send
 								</button>
