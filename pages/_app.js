@@ -1,4 +1,3 @@
-import "swiper/swiper-bundle.css";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
