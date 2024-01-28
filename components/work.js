@@ -8,7 +8,7 @@ export default function Work({ githubData }) {
 		>
 			<div className="container mx-auto p-10 text-center">
 				<div>
-					<h1 className="text-5xl md:text-6xl">
+					<h1 className="text-3xl md:text-6xl">
 						<span className="black-text-shadow font-classic">
 							All that I've worked on
 						</span>

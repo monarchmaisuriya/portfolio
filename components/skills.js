@@ -24,7 +24,7 @@ export default function Skills() {
 			<div id="skills" className="text-center pt-10 mb-20 ">
 				<div className="mx-auto container mb-10">
 					<div>
-						<h1 className="font-classic text-5xl white-text-shadow md:text-6xl ml-2 mr-2">
+						<h1 className="font-classic text-3xl white-text-shadow md:text-6xl md:mx-2">
 							All that you need
 						</h1>
 						<p className="minimal-text-shadow mt-5 text-sm">
