@@ -16,8 +16,8 @@ export default function Work({ githubData }) {
 					<p className="minimal-text-shadow mt-5 text-sm">
 						Some of my recent projects
 					</p>
-					<div className="grid grid-rows-1 grid-flow-col gap-4 overflow-x-auto mt-10 md:mx-10 py-4">
-						<div className="overflow-auto border-5 border-green-400 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+					<div className="grid grid-cols-1 grid-flow-row gap-8 overflow-y-auto mt-10 md:mx-10 py-4">
+						<div className="overflow-auto border-5 border-green-400 max-w-full w-full h-auto  mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="wagease.webp"
@@ -50,7 +50,7 @@ export default function Work({ githubData }) {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-5 border-indigo-500 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-5 border-indigo-500 max-w-full w-full h-auto  mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="tenacity.webp"
@@ -83,7 +83,7 @@ export default function Work({ githubData }) {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-5 border-indigo-300 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-5 border-indigo-300 max-w-full w-full h-auto  mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="attrione.webp"
@@ -116,7 +116,7 @@ export default function Work({ githubData }) {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-5 border-red-200 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-5 border-red-200 max-w-full w-full h-auto  mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="feathers-react-starter.webp"

@@ -347,6 +347,9 @@ export default function Skills() {
 							</div>
 						</div>
 					</div>
+					<p className="minimal-text-shadow mt-5 text-sm">
+						And I can quickly adapt & learn almost anything.
+					</p>
 				</div>
 			</div>
 		</div>
