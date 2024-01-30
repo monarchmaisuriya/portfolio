@@ -7,17 +7,9 @@ export default function Contact() {
 		return (
 			<div
 				id="contact"
-				className="mx-auto bg-white border-4 border-black container "
+				className="mx-auto bg-white border-4 border-black container"
 			>
 				<div className="container mx-auto pt-10 pb-20 text-center">
-					<div>
-						<h1 className="text-3xl white-text-shadow md:text-6xl font-classic">
-							Write to me
-						</h1>
-						<p className="minimal-text-shadow mt-5 text-sm">
-							Get in touch. Let's talk
-						</p>
-					</div>
 					<div className="my-6 flex flex-col justify-center items-center">
 						<div>
 							<MdMarkEmailRead className="h-20 w-20 text-green-600" />
