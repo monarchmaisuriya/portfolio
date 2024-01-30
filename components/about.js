@@ -38,7 +38,7 @@ export default function About() {
 						of course, I thoroughly enjoy my work.
 					</p>
 					<p>
-						If you're looking build something remarkable, I'm just a&nbsp;
+						If you're looking to build something remarkable, I'm just a&nbsp;
 						<a
 							className="text-blue-400 hover:text-blue-500 transition duration-300"
 							href="#contact"
