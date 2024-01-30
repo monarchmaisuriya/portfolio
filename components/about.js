@@ -24,9 +24,9 @@ export default function About() {
 							Monarch
 						</a>
 						, an adept, driven & self-directed software engineer with a passion
-						for creating cutting-edge solutions. As an inquisitive experimenter,
-						I thrive on transforming complex ideas into practical code, turning
-						novel concepts into reality.
+						for creating cutting-edge solutions. I thrive on transforming
+						complex ideas into practical code, turning novel concepts into
+						reality.
 					</p>
 					<p>
 						My professional journey is defined by my commitment to turning ideas
