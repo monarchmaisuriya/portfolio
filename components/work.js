@@ -203,14 +203,13 @@ export default function Work({ githubData }) {
 					</div>
 				</div> */}
 				<div className="flex justify-center mt-5">
-					<button className="shadow-lg relative w-auto py-2 px-4 md:border-2 md:border-white text-sm font-bold rounded-md text-white bg-black md:hover:text-black md:hover:bg-white transition duration-300">
-						<a
-							href="https://github.com/ingeniousambivert?tab=repositories"
-							target="_blank"
-						>
-							View More
-						</a>
-					</button>
+					<a
+						className="shadow-lg relative w-auto py-2 px-4 text-sm font-bold rounded-md text-white hover:text-gray-400 transition duration-300"
+						href="https://github.com/ingeniousambivert?tab=repositories"
+						target="_blank"
+					>
+						View More
+					</a>
 				</div>
 			</div>
 		</div>

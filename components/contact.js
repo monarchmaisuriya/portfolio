@@ -44,7 +44,7 @@ export default function Contact() {
 						</p>
 					</div>
 					<div>
-						<div className="md:bg-gradient-to-bottom p-5 md:p-10 md:shadow-md mx-auto mt-10 max-w-4xl md:max-w-3xl md:rounded-md text-white">
+						<div className="md:bg-gradient-to-bottom p-5 md:p-10 md:shadow-md mx-auto mt-10 max-w-4xl md:max-w-3xl md:rounded-md text-white md:border-4 md:border-black">
 							<form onSubmit={handleSubmit}>
 								<div className="flex justify-evenly">
 									<div className="grid grid-rows-2 grid-flow-col md:grid-cols-2 md:grid-rows-1 gap-4 w-full">
@@ -101,7 +101,7 @@ export default function Contact() {
 									<button
 										id="contact-submit"
 										type="submit"
-										className="w-full md:w-2/12 py-2 px-4 text-sm rounded-md hover:bg-white hover:text-black hover:border-2 bg-black text-white hover:border-black transition duration-300"
+										className="w-auto md:w-2/12 py-2 px-8 md:px-4 text-sm font-bold rounded-md hover:bg-white hover:text-black border-2 bg-black text-white hover:border-black transition duration-300"
 									>
 										Send
 									</button>
