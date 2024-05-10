@@ -4,7 +4,7 @@ export default function Work({ githubData }) {
 	return (
 		<div
 			id="work"
-			className="mx-auto text-white bg-black border-4 container border-white "
+			className="mx-auto text-white bg-black border-4 container border-black"
 		>
 			<div className="container mx-auto p-10 text-center">
 				<div>

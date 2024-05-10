@@ -13,16 +13,14 @@ export default function Main({ githubData, quote }) {
 	return (
 		<div>
 			<Meta />
-			<div className="flex justify-center flex-col min-h-screen bg-gradient-to-bottom font-modern">
+			<div className="flex justify-center flex-col min-h-screen font-modern">
 				<main className="flex-grow">
 					<div className="rounded-lg mx-auto my-6 px-6">
 						<Header />
-						<div className="overflow-y-auto h-544">
-							<About />
-							<Skills />
-							<Work githubData={githubData} />
-							<Contact />
-						</div>
+						<About />
+						<Skills />
+						<Work githubData={githubData} />
+						<Contact />
 						<Footer quote={quote} />
 					</div>
 				</main>
