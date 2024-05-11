@@ -364,7 +364,7 @@ export default function Skills() {
 						</div>
 					</div>
 					<p className="minimal-text-shadow mt-5 mx-10 md:mx-0 text-sm">
-						And I can quickly adapt & learn anything.
+						And I can quickly learn and adapt to anything
 					</p>
 				</div>
 			</div>

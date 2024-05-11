@@ -24,7 +24,7 @@ export default function Footer({ quote }) {
 						<p>
 							<a
 								href="mailto:monarchmaisuriya@gmail.com"
-								className="hover:text-gray-400"
+								className="hover:text-gray-400 transition duration-300"
 							>
 								monarchmaisuriya@gmail.com
 							</a>

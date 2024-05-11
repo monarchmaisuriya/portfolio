@@ -53,7 +53,7 @@ export default function Contact() {
 												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full lg:w-72 xl:w-81"
 												type="text"
 												name="Name"
-												placeholder="John Doe"
+												placeholder="Your C-Suite Alias"
 											/>
 											<ValidationError
 												className="text-gray-300 mt-2"
@@ -67,7 +67,7 @@ export default function Contact() {
 												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full lg:w-72 xl:w-81"
 												type="email"
 												name="Email"
-												placeholder="john@doe.com"
+												placeholder="you@success.com"
 											/>
 											<ValidationError
 												className="text-gray-300 mt-2"
@@ -82,11 +82,11 @@ export default function Contact() {
 									<div className="grid grid-cols-1 grid-flow-row">
 										<div className="contact-element gap-2">
 											<textarea
-												rows={4}
+												rows={3}
 												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 w-full lg:w-11/12 xl:w-full"
 												type="text"
 												name="Message"
-												placeholder="Languages are your power & variables your slaves."
+												placeholder="Your disruptive vision goes here."
 											/>
 											<ValidationError
 												className="text-gray-300 mt-2"
@@ -101,7 +101,7 @@ export default function Contact() {
 									<button
 										id="contact-submit"
 										type="submit"
-										className="w-4/12 py-2 px-8 md:px-4 text-sm font-bold rounded-md hover:bg-white hover:text-black border-2 bg-black text-white hover:border-black transition duration-300"
+										className="w-4/12 md:w-3/12 py-2 px-8 md:px-4 text-sm font-bold rounded-md hover:bg-white hover:text-black border-4 bg-black text-gray-200 border-black transition duration-300"
 									>
 										Send
 									</button>
