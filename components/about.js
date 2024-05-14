@@ -2,9 +2,9 @@ export default function About() {
 	return (
 		<div
 			id="about"
-			className="mx-auto bg-black text-white border-4 container border-black "
+			className="rounded-t-md mx-auto bg-black text-white border-4 container border-black "
 		>
-			<div className="mx-auto container p-10 pb-20 text-xl md:text-2xl md:ml-2 md:mr-2">
+			<div className="mx-auto container pt-14 pr-10 pl-10 pb-20 text-xl md:text-2xl md:ml-2 md:mr-2">
 				<div className="text-center">
 					<h1 className="font-classic text-5xl white-text-shadow md:text-6xl ml-2 mr-2">
 						Hello World

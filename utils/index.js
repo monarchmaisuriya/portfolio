@@ -29,8 +29,6 @@ function randomQuote() {
 		"In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them. - Andrew Hunt";
 	q[15] =
 		"Don't write better error messages, write code that doesn't need them. - Jason C McDonald";
-	q[16] =
-		"If you know how things work, you know how to create things that work better. - Monarch Maisuriya";
 
 	let qs = Math.floor(Math.random() * q.length);
 	if (qs === 0) qs = 1;

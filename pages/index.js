@@ -15,8 +15,8 @@ export default function Main({ githubData, quote }) {
 			<Meta />
 			<div className="flex justify-center flex-col min-h-screen font-modern">
 				<main className="flex-grow">
-					<div className="rounded-lg mx-auto my-6 px-6">
-						<Header />
+					<div className="mx-auto my-4 md:my-10 px-4 md:px-12">
+						{/* <Header /> */}
 						<About />
 						<Skills />
 						<Work githubData={githubData} />

@@ -1,43 +1,46 @@
-import { SiUpwork, SiMedium } from "react-icons/si";
-import { RiGithubLine, RiLinkedinFill } from "react-icons/ri";
-
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
 export default function Footer({ quote }) {
-	const date = new Date();
-	const currentYear = date.getFullYear();
 	return (
-		<footer className="mx-auto bg-black p-2 text-white rounded-b-lg container border-4 border-black mt-4">
+		<footer className="mx-auto bg-black p-2 text-white rounded-b-md container border-4 border-black ">
 			<div className="container mx-auto px-4 my-3">
-				<div className="grid grid-cols-1 gap-4 md:grid-cols-6">
+				<div className="grid grid-cols-1 content-center gap-4 md:grid-cols-6">
 					<div className="md:col-span-4">
 						<p className="italic">{quote}</p>
 					</div>
 					<div className="text-center md:text-right md:col-span-2">
-						{/* <p>
-							<a
-								target="_blank"
-								href="https://www.linkedin.com/in/monarchmaisuriya/ "
-								className="hover:text-blue-400"
-							>
-								Connect With Me
-							</a>
-						</p> */}
-						<p>
-							<a
-								href="mailto:monarchmaisuriya@gmail.com"
-								className="hover:text-gray-400 transition duration-300"
-							>
-								monarchmaisuriya@gmail.com
-							</a>
-						</p>
+						<div>
+							<ul className="flex flex-row justify-center md:justify-end mb-2 gap-4">
+								<li className="text-lg md:text-xl hover:text-gray-400 text-white rounded-full transition duration-300">
+									<a href="mailto:monarchmaisuriya@gmail.com" target="_blank">
+										<FaEnvelope />
+									</a>
+								</li>
+								<li className="text-lg md:text-xl hover:text-gray-400 text-white rounded-full transition duration-300">
+									<a
+										href="https://github.com/ingeniousambivert"
+										target="_blank"
+									>
+										<FaGithub />
+									</a>
+								</li>
+								<li className="text-lg md:text-xl hover:text-gray-400 text-white transition duration-300">
+									<a
+										href="https://www.linkedin.com/in/monarchmaisuriya/"
+										target="_blank"
+									>
+										<FaLinkedin />
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-			{/* <div className="mx-auto mb-2">
-				<div className="flex flex-row justify-center items-center gap-3">
-					<img src="/favicon.png" alt="logo" width={15} height={15} />
-					<span className="font-bold">&copy; {currentYear} </span>
+				<div className="flex justify-center mt-8">
+					<a href="https://about.me/monarchmaisuriya" target="_blank">
+						<img src="/favicon.png" alt="logo" width={20} height={20} />
+					</a>
 				</div>
-			</div> */}
+			</div>
 		</footer>
 	);
 }

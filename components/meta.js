@@ -16,7 +16,7 @@ const Meta = ({ title, keywords, description }) => {
 Meta.defaultProps = {
 	title: "Monarch Maisuriya | Product Engineer",
 	keywords:
-		"web development, programming, full-stack development, developer, frontend, backend, monarch, maisuriya",
+		"web development, software engineering, full-stack development, developer, frontend, backend, monarch, maisuriya",
 	description: "Portfolio website",
 };
 
