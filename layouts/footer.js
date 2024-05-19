@@ -35,11 +35,6 @@ export default function Footer({ quote }) {
 						</div>
 					</div>
 				</div>
-				<div className="flex justify-center mt-8">
-					<a href="https://about.me/monarchmaisuriya" target="_blank">
-						<img src="/favicon.png" alt="logo" width={20} height={20} />
-					</a>
-				</div>
 			</div>
 		</footer>
 	);

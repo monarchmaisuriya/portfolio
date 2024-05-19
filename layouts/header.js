@@ -2,11 +2,11 @@ import { FaLinkedin, FaGithub } from "react-icons/fa6";
 
 export default function Header() {
 	return (
-		<div className="mx-auto container bg-black px-4 pt-8  text-white rounded-t-lg border-4 border-black">
+		<div className="mx-auto container bg-black pt-8  text-white rounded-t-lg border-4 border-black">
 			<div className="flex container justify-center">
 				<div>
 					<a href="https://about.me/monarchmaisuriya" target="_blank">
-						<img src="/favicon.png" alt="logo" width={30} height={30} />
+						<img src="/favicon.png" alt="logo" width={20} height={20} />
 					</a>
 				</div>
 				{/* <div>

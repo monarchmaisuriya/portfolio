@@ -37,7 +37,7 @@ export default function Contact() {
 				<div className="container mx-auto pt-10 pb-20 text-center">
 					<div>
 						<h1 className="text-3xl white-text-shadow md:text-6xl font-classic">
-							Write to me
+							All you need to do
 						</h1>
 						<p className="minimal-text-shadow mt-5 text-sm">
 							Get in touch. Let's talk
