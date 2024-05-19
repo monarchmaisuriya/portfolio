@@ -16,11 +16,11 @@ export default function Contact() {
 						</div>
 						<div>
 							<p className="text-3xl font-semibold">
-								Thank you for reaching out!
+								Thanks for getting in touch!
 							</p>
 						</div>
 						<div>
-							<p className="text-md mt-2">
+							<p className="text-sm mt-6">
 								Please allow me upto 24 hours to revert back.
 							</p>
 						</div>
@@ -40,7 +40,7 @@ export default function Contact() {
 							All you need to do
 						</h1>
 						<p className="minimal-text-shadow mt-5 text-sm">
-							Get in touch. Let's talk
+							Write to me. Let's have a chat
 						</p>
 					</div>
 					<div>
