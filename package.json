@@ -5,10 +5,10 @@
 	"description": "A minimal showcase of Monarch's projects",
 	"author": "Monarch Maisuriya",
 	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"export": "next export",
-		"start": "next start",
+		"dev": "NODE_ENV=development next dev",
+		"build": "NODE_ENV=production next build",
+		"export": "NODE_ENV=production next export",
+		"start": "NODE_ENV=production next start",
 		"predeploy": "npm run build && npm run export",
 		"deploy": "gh-pages -d out"
 	},
