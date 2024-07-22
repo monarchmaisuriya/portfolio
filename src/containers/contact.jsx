@@ -36,15 +36,15 @@ export default function Contact() {
 			>
 				<div className="container mx-auto pt-10 pb-20 text-center">
 					<div>
-						<h1 className="text-2xl white-text-shadow md:text-4xl  ">
+						<h1 className="text-2xl white-text-shadow md:text-4xl font-medium">
 							All you need to do
 						</h1>
-						<p className="minimal-text-shadow mt-5 text-sm">
+						<p className="mt-5 text-sm">
 							Write to me. Let's have a chat
 						</p>
 					</div>
-					<div>
-						<div className=" p-5 md:p-10 mx-auto mt-10 max-w-4xl md:max-w-3xl md:rounded-md text-white">
+					<div className="mx-6 md:mx-0">
+						<div className="p-5 md:p-10 mx-auto mt-10 max-w-4xl md:max-w-3xl md:rounded-md text-white">
 							<form onSubmit={handleSubmit}>
 								<div className="flex justify-evenly">
 									<div className="grid grid-rows-2 grid-flow-col md:grid-cols-2 md:grid-rows-1 gap-4 w-full">

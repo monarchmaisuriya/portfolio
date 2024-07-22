@@ -22,28 +22,20 @@ export default function Skills() {
 			<div id="skills" className="text-center pt-10 mb-20 ">
 				<div className="mx-auto container mb-10">
 					<div>
-						<h1 className="  text-2xl white-text-shadow md:text-4xl md:mx-2">
+						<h1 className="font-medium text-2xl white-text-shadow md:text-4xl md:mx-2">
 							All that you need
 						</h1>
-						<p className="minimal-text-shadow mt-5 text-sm">
-							I usually work with
-						</p>
+						<p className="mt-5 text-sm">I usually work with</p>
 					</div>
 
 					<div className="flex flex-wrap justify-evenly">
 						<div className="mt-6">
-							<div className="grid grid-flow-row grid-cols-2 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
+							<div className="grid grid-flow-row grid-cols-3 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<SiJavascript
-											style={{
-												fontSize: `1.15rem`,
-												margin: `4px 2px 0 0`,
-												color: `#f2db30`,
-											}}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<SiJavascript className="text-[#f2db30] text-[0.86rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://en.wikipedia.org/wiki/JavaScript"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -52,18 +44,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<SiTypescript
-											style={{
-												color: `#3178C6`,
-												fontSize: `1.15rem`,
-												margin: `4px 2px 0 0`,
-											}}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<SiTypescript className="text-[#3178C6] text-[0.86rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://www.typescriptlang.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -72,14 +57,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<FaNodeJs
-											style={{ fontSize: `1.5rem`, color: `#43A047` }}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<FaNodeJs className="text-[#43A047] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://nodejs.org/en"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -88,14 +70,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<RiReactjsLine
-											style={{ fontSize: `1.5rem`, color: `#56C1DE` }}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<RiReactjsLine className="text-[#56C1DE] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://reactjs.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -104,14 +83,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<DiPython
-											style={{ fontSize: `1.5rem`, color: `#306998` }}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<DiPython className="text-[#306998] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://www.python.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -120,18 +96,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<TbBrandGolang
-											style={{
-												fontSize: `2.15rem`,
-												margin: `-4px -8px -8px 0`,
-												color: `#3F9586`,
-											}}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<TbBrandGolang className="text-[#3F9586] text-[1.61rem] md:text-[2.15rem] m-[-3px_-6px_-6px_0]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://go.dev/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -140,12 +109,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<SiNextdotjs style={{ fontSize: `1.5rem` }} />
+									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<SiNextdotjs className="text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://nextjs.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -154,14 +122,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<TbBrandReactNative
-											style={{ fontSize: `1.5rem`, color: `#E67972` }}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<TbBrandReactNative className="text-[#E67972] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://reactnative.dev/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -170,17 +135,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<SiAmazonaws
-											style={{
-												fontSize: `1.5rem`,
-												color: `#ffc107`,
-											}}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<SiAmazonaws className="text-[#ffc107] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://aws.amazon.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -189,17 +148,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<DiMysql
-											style={{
-												fontSize: `1.5rem`,
-												color: ` #389fe0`,
-											}}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<DiMysql className="text-[#389fe0] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://www.mysql.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -208,17 +161,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
-								<div className="justify-">
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<DiMongodb
-											style={{
-												fontSize: `1.5rem`,
-												color: `#4A944C`,
-											}}
-										/>
+								<div>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<DiMongodb className="text-[#4A944C] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased my-auto"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://www.mongodb.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -227,17 +174,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<SiPostgresql
-											style={{
-												fontSize: `1.5rem`,
-												color: `#306998`,
-											}}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<SiPostgresql className="text-[#306998] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://www.postgresql.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -246,18 +187,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<SiGooglecloud
-											style={{
-												fontSize: `1.60rem`,
-												margin: `-2px -8px -2px 0`,
-												color: `#F5AD42`,
-											}}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<SiGooglecloud className="text-[#F5AD42] text-[1.2rem] md:text-[1.6rem] m-[-1.5px_-6px_-1.5px_0]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://cloud.google.com/products"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -266,17 +200,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<SiDocker
-											style={{
-												fontSize: `1.5rem`,
-												color: `#06ade5`,
-											}}
-										/>
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<SiDocker className="text-[#06ade5] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://www.docker.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -285,18 +213,11 @@ export default function Skills() {
 										</a>
 									</button>
 								</div>
-
 								<div>
-									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-4 shadow-lg w-[150px] flex justify-evenly">
-										<FaGitAlt
-											style={{
-												fontSize: `1.75rem`,
-												margin: `-2px -14px -2px 0`,
-												color: `#ED4C34`,
-											}}
-										/>
+									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+										<FaGitAlt className="text-[#ED4C34] text-[1.31rem] md:text-[1.75rem] m-[-1.5px_-10.5px_-1.5px_0]" />
 										<a
-											className="flex flex-row antialiased"
+											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
 											href="https://git-scm.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -308,6 +229,7 @@ export default function Skills() {
 							</div>
 						</div>
 					</div>
+
 					<p className="minimal-text-shadow mt-5 mx-10 md:mx-0 text-sm">
 						And I can quickly learn and adapt to anything
 					</p>

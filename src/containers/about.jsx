@@ -4,14 +4,14 @@ export default function About() {
 			id="about"
 			className=" mx-auto bg-black text-white border-4 container border-black "
 		>
-			<div className="mx-auto container pt-6 pr-10 pl-10 pb-20 text-xl md:text-2xl md:ml-2 md:mr-2">
+			<div className="mx-auto container">
 				<div className="text-center">
-					<h1 className="text-2xl white-text-shadow md:text-4xl ml-2 mr-2">
+					<h1 className="text-2xl white-text-shadow md:text-4xl ml-2 mr-2 font-medium">
 						Hello World
 					</h1>
-					<p className="minimal-text-shadow my-5 text-sm">Glad to see you</p>
+					<p className="my-5 text-sm">Glad to see you</p>
 				</div>
-				<div className="md:mx-10 mt-10 antialiased font-medium">
+				<div className="text-md md:text-xl my-10 mx-12 md:px-10 md:py-10 md:mx-14 antialiased">
 					<p>
 						I am&nbsp;
 						<a
