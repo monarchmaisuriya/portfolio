@@ -13,12 +13,23 @@ export default function App() {
 			<div className="flex justify-center flex-col min-h-screen font-modern">
 				<main className="flex-grow">
 					<div className="mx-auto my-4 md:my-10 px-4 md:px-12">
+						<div className="container flex justify-center px-4 my-9">
+							<a href="https://about.me/monarchmaisuriya" target="_blank">
+								<img src="favicon-dark.png" alt="logo" width={20} height={20} />
+							</a>
+						</div>
 						<Header />
 						<About />
 						<Skills />
 						<Work />
 						<Contact />
 						<Footer quote={quote} />
+						<div className="container flex justify-center px-4 my-9 text-xs font-semibold antialiased">
+							By&nbsp;
+							<a href="https://about.me/monarchmaisuriya" target="_blank">
+								Monarch Maisuriya
+							</a>
+						</div>
 					</div>
 				</main>
 			</div>

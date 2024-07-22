@@ -4,11 +4,11 @@ export default function Header() {
 	return (
 		<div className="mx-auto container bg-black pt-8  text-white rounded-t-lg border-4 border-black">
 			<div className="flex container justify-center">
-				<div>
+				{/* <div>
 					<a href="https://about.me/monarchmaisuriya" target="_blank">
 						<img src="/favicon.png" alt="logo" width={20} height={20} />
 					</a>
-				</div>
+				</div> */}
 				{/* <div>
 					<ul className="flex flex-row">
 						<li className=" pr-5 text-xl md:text-2xl hover:text-gray-400 text-white rounded-full transition duration-300">
