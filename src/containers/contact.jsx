@@ -36,7 +36,7 @@ export default function Contact() {
 			>
 				<div className="container mx-auto pt-10 pb-20 text-center">
 					<div>
-						<h1 className="text-3xl white-text-shadow md:text-6xl font-classic">
+						<h1 className="text-2xl white-text-shadow md:text-4xl  ">
 							All you need to do
 						</h1>
 						<p className="minimal-text-shadow mt-5 text-sm">
@@ -50,10 +50,10 @@ export default function Contact() {
 									<div className="grid grid-rows-2 grid-flow-col md:grid-cols-2 md:grid-rows-1 gap-4 w-full">
 										<div className="contact-element gap-2">
 											<input
-												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full lg:w-72 xl:w-81"
+												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full"
 												type="text"
 												name="Name"
-												placeholder="Your C-Suite Alias"
+												placeholder="Your name"
 											/>
 											<ValidationError
 												className="text-gray-300 mt-2"
@@ -64,10 +64,10 @@ export default function Contact() {
 										</div>
 										<div className="contact-element gap-2">
 											<input
-												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full lg:w-72 xl:w-81"
+												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full"
 												type="email"
 												name="Email"
-												placeholder="you@success.com"
+												placeholder="you@email.com"
 											/>
 											<ValidationError
 												className="text-gray-300 mt-2"
@@ -83,10 +83,10 @@ export default function Contact() {
 										<div className="contact-element gap-2">
 											<textarea
 												rows={3}
-												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 w-full lg:w-11/12 xl:w-full"
+												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 w-full"
 												type="text"
 												name="Message"
-												placeholder="Your disruptive vision goes here."
+												placeholder="Your message goes here."
 											/>
 											<ValidationError
 												className="text-gray-300 mt-2"

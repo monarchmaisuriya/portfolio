@@ -3,7 +3,8 @@
 > Minimal portfolio of a Full Stack Developer
 
 ## About
-This project is built with [NextJS](https://nextjs.org/), [React](https://reactjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
+
+This project is built with [Vite](https://vitejs.dev/), [React](https://reactjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
 ## Getting Started
 
@@ -14,7 +15,7 @@ Getting up and running is simple.
 
 ```bash
 cd path/to/folder
-npm install 
+npm install
 ```
 
 3.1 Start your server.
@@ -32,7 +33,7 @@ npm run dev
 4.1 Build and export your application for production.
 
 ```bash
-npm run predeploy
+npm run build
 ```
 
 3.2 Deploy to GitHub Pages.
@@ -41,4 +42,4 @@ npm run predeploy
 npm run deploy
 ```
 
->Note: You need to have a configured GitHub Pages to use the branch gh-pages as source.
+> Note: You need to have a configured GitHub Pages to use the branch gh-pages as source.

@@ -65,16 +65,14 @@ export default function Work() {
 		>
 			<div className="container mx-auto p-10 text-center">
 				<div>
-					<h1 className="text-3xl md:text-6xl">
-						<span className="black-text-shadow font-classic">
-							All that I've worked on
-						</span>
+					<h1 className="text-2xl md:text-4xl">
+						<span className="black-text-shadow  ">All that I've worked on</span>
 					</h1>
 					<p className="minimal-text-shadow mt-5 text-sm">
 						Some of my recent projects
 					</p>
 					<Scrollable className="grid grid-row-1 grid-flow-col gap-8 mt-10 md:mx-10 py-4">
-						<div className="overflow-auto border-2 border-green-400 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-2 border-green-400 w-[225px] h-[150px] md:w-[600px] md:h-[300px] mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="wagease.webp"
@@ -107,7 +105,7 @@ export default function Work() {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-2 border-indigo-500 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-2 border-indigo-500 w-[225px] h-[150px] md:w-[600px] md:h-[300px] mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="tenacity.webp"
@@ -140,7 +138,7 @@ export default function Work() {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-2 border-indigo-300 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-2 border-indigo-300 w-[225px] h-[150px] md:w-[600px] md:h-[300px] mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="attrione.webp"
@@ -173,7 +171,7 @@ export default function Work() {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-2 border-red-200 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-2 border-red-200 w-[225px] h-[150px] md:w-[600px] md:h-[300px] mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="feathers-react-starter.webp"

@@ -5,7 +5,7 @@ export default function Footer({ quote }) {
 			<div className="container mx-auto px-4 my-3">
 				<div className="grid grid-cols-1 content-center gap-4 md:grid-cols-6">
 					<div className="md:col-span-4">
-						<p className="italic">{quote}</p>
+						<p className="italic antialiased">{quote}</p>
 					</div>
 					<div className="text-center md:text-right md:col-span-2">
 						<div>

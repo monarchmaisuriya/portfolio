@@ -6,12 +6,12 @@ export default function About() {
 		>
 			<div className="mx-auto container pt-6 pr-10 pl-10 pb-20 text-xl md:text-2xl md:ml-2 md:mr-2">
 				<div className="text-center">
-					<h1 className="font-classic text-5xl white-text-shadow md:text-6xl ml-2 mr-2">
+					<h1 className="text-2xl white-text-shadow md:text-4xl ml-2 mr-2">
 						Hello World
 					</h1>
 					<p className="minimal-text-shadow my-5 text-sm">Glad to see you</p>
 				</div>
-				<div className="md:mx-10 mt-10 font-medium">
+				<div className="md:mx-10 mt-10 antialiased font-medium">
 					<p>
 						I am&nbsp;
 						<a
