@@ -1,11 +1,11 @@
 import React from "react";
-import Meta from "../components/meta";
+import Meta from "../containers/meta";
 import Header from "../layouts/header";
 import Footer from "../layouts/footer";
-import About from "../components/about";
-import Skills from "../components/skills";
-import Work from "../components/work";
-import Contact from "../components/contact";
+import About from "../containers/about";
+import Skills from "../containers/skills";
+import Work from "../containers/work";
+import Contact from "../containers/contact";
 
 import { randomQuote } from "../utils";
 

@@ -34,7 +34,7 @@ export default function Skills() {
 						<div className="mt-6">
 							<div className="grid grid-flow-row grid-cols-2 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg ">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-4 shadow-lg">
 										<a
 											className="flex flex-row"
 											href="https://en.wikipedia.org/wiki/JavaScript"

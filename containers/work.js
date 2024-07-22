@@ -1,4 +1,61 @@
-import { FiExternalLink } from "react-icons/fi";
+/* eslint-disable react/prop-types */
+import React from "react";
+import { cn } from "../utils";
+
+const Scrollable = ({ children, className }) => {
+	const containerRef = React.useRef(null);
+
+	React.useEffect(() => {
+		const container = containerRef.current;
+
+		let isDown = false;
+		let startX;
+		let scrollLeft;
+
+		const handleMouseDown = (e) => {
+			isDown = true;
+			startX = e.pageX - container.offsetLeft;
+			scrollLeft = container.scrollLeft;
+		};
+
+		const handleMouseLeave = () => {
+			isDown = false;
+		};
+
+		const handleMouseUp = () => {
+			isDown = false;
+		};
+
+		const handleMouseMove = (e) => {
+			if (!isDown) return;
+			e.preventDefault();
+			const x = e.pageX - container.offsetLeft;
+			const walk = (x - startX) * 3;
+			container.scrollLeft = scrollLeft - walk;
+		};
+
+		container.addEventListener("mousedown", handleMouseDown);
+		container.addEventListener("mouseleave", handleMouseLeave);
+		container.addEventListener("mouseup", handleMouseUp);
+		container.addEventListener("mousemove", handleMouseMove);
+
+		return () => {
+			container.removeEventListener("mousedown", handleMouseDown);
+			container.removeEventListener("mouseleave", handleMouseLeave);
+			container.removeEventListener("mouseup", handleMouseUp);
+			container.removeEventListener("mousemove", handleMouseMove);
+		};
+	}, []);
+
+	return (
+		<div
+			ref={containerRef}
+			className={cn("h-full overflow-auto no-scrollbar", className)}
+		>
+			{children}
+		</div>
+	);
+};
 
 export default function Work({ githubData }) {
 	return (
@@ -16,8 +73,8 @@ export default function Work({ githubData }) {
 					<p className="minimal-text-shadow mt-5 text-sm">
 						Some of my recent projects
 					</p>
-					<div className="grid grid-row-1 grid-flow-col gap-8 overflow-x-auto mt-10 md:mx-10 py-4">
-						<div className="overflow-auto border-5 border-green-400 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+					<Scrollable className="grid grid-row-1 grid-flow-col gap-8 mt-10 md:mx-10 py-4">
+						<div className="overflow-auto border-2 border-green-400 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="wagease.webp"
@@ -50,7 +107,7 @@ export default function Work({ githubData }) {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-5 border-indigo-500 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-2 border-indigo-500 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="tenacity.webp"
@@ -83,7 +140,7 @@ export default function Work({ githubData }) {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-5 border-indigo-300 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-2 border-indigo-300 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="attrione.webp"
@@ -116,7 +173,7 @@ export default function Work({ githubData }) {
 							</div>
 						</div>
 
-						<div className="overflow-auto border-5 border-red-200 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+						<div className="overflow-auto border-2 border-red-200 max-w-full md:w-120 md:h-auto w-104 h-56 mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
 									src="feathers-react-starter.webp"
@@ -150,7 +207,7 @@ export default function Work({ githubData }) {
 								</div>
 							</div>
 						</div>
-					</div>
+					</Scrollable>
 				</div>
 
 				{/* <div>
