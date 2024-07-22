@@ -29,13 +29,13 @@ export default function Skills() {
 					</div>
 
 					<div className="flex flex-wrap justify-evenly">
-						<div className="mt-6">
-							<div className="grid grid-flow-row grid-cols-3 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
+						<div className="mt-6 mx-3 px-3 overflow-x-scroll">
+							<div className="grid grid-flow-row grid-cols-2 xs:grid-cols-3 md:grid-rows-3 md:grid-flow-col gap-2 mt-5 text-white ml-2 mr-2 md:ml-0 md:mr-0 overflow-x-auto">
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
-										<SiJavascript className="text-[#f2db30] text-[0.86rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+										<SiJavascript className="text-[#f2db30] text-[0.75rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://en.wikipedia.org/wiki/JavaScript"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -45,10 +45,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
-										<SiTypescript className="text-[#3178C6] text-[0.86rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+										<SiTypescript className="text-[#3178C6] text-[0.75rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://www.typescriptlang.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -58,10 +58,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<FaNodeJs className="text-[#43A047] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://nodejs.org/en"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -71,10 +71,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<RiReactjsLine className="text-[#56C1DE] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://reactjs.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -84,10 +84,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<DiPython className="text-[#306998] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://www.python.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -97,10 +97,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
-										<TbBrandGolang className="text-[#3F9586] text-[1.61rem] md:text-[2.15rem] m-[-3px_-6px_-6px_0]" />
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+										<TbBrandGolang className="text-[#3F9586] text-[1.4rem] md:text-[2.15rem] m-[-3px_-6px_-6px_0]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://go.dev/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -110,10 +110,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<SiNextdotjs className="text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://nextjs.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -123,10 +123,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<TbBrandReactNative className="text-[#E67972] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://reactnative.dev/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -136,10 +136,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<SiAmazonaws className="text-[#ffc107] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://aws.amazon.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -149,10 +149,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<DiMysql className="text-[#389fe0] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://www.mysql.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -162,10 +162,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<DiMongodb className="text-[#4A944C] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://www.mongodb.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -175,10 +175,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
 										<SiPostgresql className="text-[#306998] text-[1.125rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://www.postgresql.org/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -188,10 +188,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
-										<SiGooglecloud className="text-[#F5AD42] text-[1.2rem] md:text-[1.6rem] m-[-1.5px_-6px_-1.5px_0]" />
+									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+										<SiGooglecloud className="text-[#F5AD42] text-[1.1rem] md:text-[1.6rem] m-[-1.5px_-6px_-1.5px_0]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://cloud.google.com/products"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -201,10 +201,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
-										<SiDocker className="text-[#06ade5] text-[1.125rem] md:text-[1.5rem]" />
+									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+										<SiDocker className="text-[#06ade5] text-[1rem] md:text-[1.5rem]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://www.docker.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -214,10 +214,10 @@ export default function Skills() {
 									</button>
 								</div>
 								<div>
-									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-3 md:p-4 shadow-lg w-[112.5px] md:w-[150px] flex justify-evenly">
-										<FaGitAlt className="text-[#ED4C34] text-[1.31rem] md:text-[1.75rem] m-[-1.5px_-10.5px_-1.5px_0]" />
+									<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+										<FaGitAlt className="text-[#ED4C34] text-[1.125rem] md:text-[1.75rem] m-[-1.5px_-10.5px_-1.5px_0]" />
 										<a
-											className="flex flex-row antialiased text-[0.75rem] md:text-[1rem]"
+											className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 											href="https://git-scm.com/"
 											rel="noopener noreferrer"
 											target="_blank"
@@ -230,7 +230,7 @@ export default function Skills() {
 						</div>
 					</div>
 
-					<p className="minimal-text-shadow mt-5 mx-10 md:mx-0 text-sm">
+					<p className="mt-5 mx-10 md:mx-0 text-sm">
 						And I can quickly learn and adapt to anything
 					</p>
 				</div>

@@ -39,9 +39,7 @@ export default function Contact() {
 						<h1 className="text-2xl white-text-shadow md:text-4xl font-medium">
 							All you need to do
 						</h1>
-						<p className="mt-5 text-sm">
-							Write to me. Let's have a chat
-						</p>
+						<p className="mt-5 text-sm">Write to me. Let's have a chat</p>
 					</div>
 					<div className="mx-6 md:mx-0">
 						<div className="p-5 md:p-10 mx-auto mt-10 max-w-4xl md:max-w-3xl md:rounded-md text-white">
@@ -101,7 +99,7 @@ export default function Contact() {
 									<button
 										id="contact-submit"
 										type="submit"
-										className="w-4/12 md:w-3/12 py-2 px-8 md:px-4 text-sm font-bold rounded-md hover:bg-white hover:text-black border-4 bg-black text-gray-200 border-black transition duration-300"
+										className="w-6/12 md:w-3/12 py-2 px-8 md:px-4 md:text-sm font-bold rounded-md hover:bg-white hover:text-black border-4 bg-black text-gray-200 border-black transition duration-300 text-xs text-center"
 									>
 										Send
 									</button>

@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
 export default function Footer({ quote }) {
 	return (
 		<footer className="mx-auto bg-black p-2 text-white rounded-b-md container border-4 border-black ">
-			<div className="container mx-auto px-20 my-4">
+			<div className="container mx-auto px-8 md:px-20 my-4">
 				<div className="flex flex-col justify-center items-center">
 					<div className="mb-6">
 						<p className="italic antialiased text-center md:font-medium text-xs md:text-sm">
