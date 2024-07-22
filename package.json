@@ -6,7 +6,7 @@
 	"author": "Monarch Maisuriya",
 	"scripts": {
 		"dev": "NODE_ENV=development next dev",
-		"build": "NODE_ENV=production next build && npx tailwindcss -i ./styles/globals.css -o ./styles/globals.css --minify",
+		"build": "NODE_ENV=production next build && npx tailwindcss -i ./styles/globals.css -o ./styles/build.css --minify",
 		"export": "NODE_ENV=production next export",
 		"start": "NODE_ENV=production next start",
 		"predeploy": "npm run build && npm run export",
