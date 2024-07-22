@@ -1,27 +1,30 @@
 {
-  "name": "ambiverse",
-  "version": "0.1.0",
-  "private": true,
-  "description": "A minimal portfolio of a full-stack developer",
-  "author": "Monarch Maisuriya",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "export": "next export",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@formspree/react": "^2.5.1",
-    "clsx": "^2.1.1",
-    "next": "^12.3.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-icons": "^4.10.1",
-    "tailwind-merge": "^2.4.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.4",
-    "postcss": "^8.1.10",
-    "tailwindcss": "^2.1.1"
-  }
+	"name": "ambiverse",
+	"version": "0.1.0",
+	"private": true,
+	"description": "A minimal showcase of Monarch's projects",
+	"author": "Monarch Maisuriya",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"export": "next export",
+		"start": "next start",
+		"predeploy": "npm run build && npm run export",
+		"deploy": "gh-pages -d out"
+	},
+	"dependencies": {
+		"@formspree/react": "^2.5.1",
+		"clsx": "^2.1.1",
+		"gh-pages": "^6.1.1",
+		"next": "^12.3.4",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-icons": "^4.10.1",
+		"tailwind-merge": "^2.4.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.0.4",
+		"postcss": "^8.1.10",
+		"tailwindcss": "^2.1.1"
+	}
 }

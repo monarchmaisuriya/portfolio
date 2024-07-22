@@ -6,10 +6,10 @@ import About from "../containers/about";
 import Skills from "../containers/skills";
 import Work from "../containers/work";
 import Contact from "../containers/contact";
-
 import { randomQuote } from "../utils";
 
-export default function Main({ githubData, quote }) {
+export default function Main() {
+	const quote = randomQuote();
 	return (
 		<div>
 			<Meta />
@@ -19,7 +19,7 @@ export default function Main({ githubData, quote }) {
 						<Header />
 						<About />
 						<Skills />
-						<Work githubData={githubData} />
+						<Work />
 						<Contact />
 						<Footer quote={quote} />
 					</div>
@@ -29,23 +29,3 @@ export default function Main({ githubData, quote }) {
 	);
 }
 
-export async function getServerSideProps() {
-	// const response = await fetch(
-	// 	`https://api.github.com/users/ingeniousambivert/repos?per_page=300&sort=created:desc&client_id=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID}&client_secret=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_SECRET}`,
-	// 	{
-	// 		method: "GET",
-	// 		headers: {
-	// 			Accept: "application/vnd.github.mercy-preview+json",
-	// 		},
-	// 	}
-	// );
-	const githubData = []; //await response.json();
-	const quote = randomQuote();
-
-	return {
-		props: {
-			githubData,
-			quote,
-		},
-	};
-}

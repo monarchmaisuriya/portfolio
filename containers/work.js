@@ -57,7 +57,7 @@ const Scrollable = ({ children, className }) => {
 	);
 };
 
-export default function Work({ githubData }) {
+export default function Work() {
 	return (
 		<div
 			id="work"
@@ -210,55 +210,6 @@ export default function Work({ githubData }) {
 					</Scrollable>
 				</div>
 
-				{/* <div>
-					<p className="minimal-text-shadow mt-10">Some of my side work</p>
-					<div className="grid grid-rows-1 grid-flow-col gap-4 overflow-x-auto mt-10">
-						{githubData.map((repo) => {
-							if (
-								repo.name.search(new RegExp("ingeniousambivert", "i")) &&
-								repo.name.search(new RegExp("^v[0-9]+$")) &&
-								!repo.name.includes("git") &&
-								repo.fork === false
-							) {
-								return (
-									<div
-										key={repo.id}
-										className="overflow-auto border border-gray-200 h-4/5 px-6 py-5 max-w-full w-72 mx-auto rounded-md space-y-1 bg-white shadow-xl flex flex-wrap content-evenly"
-									>
-										<p className="font-semibold text-lg text-gray-900 mt-1">
-											<a
-												className="flex flex-row"
-												href={repo.html_url}
-												target="_blank"
-											>
-												{repo.name}&nbsp;
-												<FiExternalLink className="mt-2 text-sm text-gray-900 hover:text-black" />
-											</a>
-										</p>
-										<div>
-											<p className="truncate text-gray-500">
-												{repo.description}
-											</p>
-										</div>
-
-										<div className="mt-2 mb-2">
-											<div className="gap-1 grid grid-rows-1 grid-flow-col mt-2">
-												{repo.topics.map((topic) => (
-													<span
-														key={topic}
-														className="bg-black rounded-md p-0.5 shadow-lg no-word-break pl-2 pr-2"
-													>
-														{topic}
-													</span>
-												))}
-											</div>
-										</div>
-									</div>
-								);
-							}
-						})}
-					</div>
-				</div> */}
 				<div className="flex justify-center mt-5">
 					<a
 						className="shadow-lg relative w-auto py-2 px-4 text-sm font-bold rounded-md text-white hover:text-gray-400 transition duration-300"

@@ -9,35 +9,36 @@ This project is built with [NextJS](https://nextjs.org/), [React](https://reactj
 
 Getting up and running is simple.
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [yarn](https://yarnpkg.com/) installed in your system globally.
+1. Make sure you have [NodeJS](https://nodejs.org/) installed in your system globally.
 2. Install your dependencies.
 
 ```bash
 cd path/to/folder
-yarn 
+npm install 
 ```
 
 3.1 Start your server.
 
 ```bash
-yarn start
+npm start
 ```
 
 3.2 Start your server in development mode.
 
 ```bash
-yarn dev
+npm run dev
 ```
 
-4. Configuring the server with environment variables
+4.1 Build and export your application for production.
 
-   - Create a `.env.local` file in the root
-   - Add the following lines to it (modify according to your environment/requirements)
+```bash
+npm run predeploy
+```
 
-   ```env
-   # Express Server config
-    NEXT_PUBLIC_GITHUB_CLIENT_ID = 2xxxxxxxxxxxxxf
-    NEXT_PUBLIC_GITHUB_CLIENT_SECRET = bxxxxxxxxxxxxxxxxxxxxxxxxxxx9
+3.2 Deploy to GitHub Pages.
 
+```bash
+npm run deploy
+```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+>Note: You need to have a configured GitHub Pages to use the branch gh-pages as source.
