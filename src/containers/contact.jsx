@@ -21,7 +21,7 @@ export default function Contact() {
 						</div>
 						<div>
 							<p className="text-sm mt-6">
-								Please allow me upto 24 hours to revert back.
+								Please allow me up to 24 hours to revert back.
 							</p>
 						</div>
 					</div>
@@ -32,7 +32,7 @@ export default function Contact() {
 		return (
 			<div
 				id="contact"
-				className="mx-auto bg-white border-4 border-black container "
+				className="mx-auto bg-white border-4 border-black container"
 			>
 				<div className="container mx-auto pt-10 pb-20 text-center">
 					<div>
@@ -48,7 +48,7 @@ export default function Contact() {
 									<div className="grid grid-rows-2 grid-flow-col md:grid-cols-2 md:grid-rows-1 gap-4 w-full">
 										<div className="contact-element gap-2">
 											<input
-												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full"
+												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-3/4 md:w-full h-10 md:h-12"
 												type="text"
 												name="Name"
 												placeholder="Your name"
@@ -62,7 +62,7 @@ export default function Contact() {
 										</div>
 										<div className="contact-element gap-2">
 											<input
-												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-full"
+												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 relative w-3/4 md:w-full h-10 md:h-12"
 												type="email"
 												name="Email"
 												placeholder="you@email.com"
@@ -81,7 +81,7 @@ export default function Contact() {
 										<div className="contact-element gap-2">
 											<textarea
 												rows={3}
-												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 w-full"
+												className="icon-button bg-black placeholder-gray-600 rounded-md p-3 w-3/4 md:w-full h-24 md:h-32"
 												type="text"
 												name="Message"
 												placeholder="Your message goes here."
@@ -99,7 +99,7 @@ export default function Contact() {
 									<button
 										id="contact-submit"
 										type="submit"
-										className="w-6/12 md:w-3/12 py-2 px-8 md:px-4 md:text-sm font-bold rounded-md hover:bg-white hover:text-black border-4 bg-black text-gray-200 border-black transition duration-300 text-xs text-center"
+										className="w-3/4 md:w-6/12 py-2 px-6 md:px-8 md:text-sm font-bold rounded-md hover:bg-white hover:text-black border-4 bg-black text-gray-200 border-black transition duration-300 text-xs text-center h-10 md:h-12"
 									>
 										Send
 									</button>
