@@ -11,7 +11,7 @@ export default function About() {
 					</h1>
 					<p className="my-5 text-sm antialiased">Glad to see you</p>
 				</div>
-				<div className="text-md md:text-xl my-10 md:my-6 mx-12 md:px-10 md:py-10 md:mx-14 antialiased">
+				<div className="text-[15px] md:text-xl my-10 md:my-6 mx-9 md:px-10 md:py-6 md:mx-14 md:pb-10 antialiased">
 					<p>
 						I am&nbsp;
 						<a
