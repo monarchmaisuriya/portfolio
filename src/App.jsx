@@ -26,7 +26,11 @@ export default function App() {
 						<Footer quote={quote} />
 						<div className="container flex justify-center px-4 my-9 text-xs font-semibold antialiased">
 							By&nbsp;
-							<a href="https://about.me/monarchmaisuriya" target="_blank">
+							<a
+								className="hover:text-gray-800"
+								href="https://about.me/monarchmaisuriya"
+								target="_blank"
+							>
 								Monarch Maisuriya
 							</a>
 						</div>
