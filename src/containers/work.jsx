@@ -153,7 +153,7 @@ export default function Work() {
 
 				<div className="flex justify-center mt-5">
 					<a
-						className="shadow-lg relative w-auto py-2 px-4 text-sm font-bold rounded-md text-white hover:text-gray-400 transition duration-300"
+						className="shadow-lg relative w-auto py-2 px-4 text-xs md:text-sm font-semibold antialiased rounded-md text-white hover:text-gray-400 transition duration-300"
 						href="https://github.com/ingeniousambivert?tab=repositories"
 						target="_blank"
 					>
