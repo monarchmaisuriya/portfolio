@@ -9,9 +9,9 @@ export default function About() {
 					<h1 className="text-2xl white-text-shadow md:text-4xl ml-2 mr-2 font-medium">
 						Hello World
 					</h1>
-					<p className="my-5 text-sm">Glad to see you</p>
+					<p className="my-5 text-sm antialiased">Glad to see you</p>
 				</div>
-				<div className="text-md md:text-xl my-10 mx-12 md:px-10 md:py-10 md:mx-14 antialiased">
+				<div className="text-md md:text-xl my-10 md:my-6 mx-12 md:px-10 md:py-10 md:mx-14 antialiased">
 					<p>
 						I am&nbsp;
 						<a
