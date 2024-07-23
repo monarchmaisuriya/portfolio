@@ -98,9 +98,9 @@ export default function Skills() {
 							</div>
 							<div>
 								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
-									<TbBrandGolang className="text-[#3F9586] text-[1.4rem] md:text-[2.15rem] m-[-3px_-6px_-6px_0]" />
+									<TbBrandGolang className="text-[#3F9586] text-[1.5rem] md:text-[2rem] m-[-3px_-3px_-3px_0]" />
 									<a
-										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem] mt-[1px]"
 										href="https://go.dev/"
 										rel="noopener noreferrer"
 										target="_blank"

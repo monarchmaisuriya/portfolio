@@ -93,7 +93,7 @@ export default function Contact() {
 									<button
 										id="contact-submit"
 										type="submit"
-										className="w-3/4 md:w-4/12 py-2 px-6 md:px-8 md:text-sm font-bold rounded-lg hover:bg-white hover:text-black border-4 bg-black text-gray-200 transition duration-300 text-xs text-center h-10 md:h-12"
+										className="w-3/4 md:w-4/12 py-2 px-6 md:px-8 md:text-sm font-bold rounded-lg hover:bg-white hover:text-black border-black border-2 bg-black text-gray-200 transition duration-300 text-xs text-center h-10 md:h-12 antialiased"
 									>
 										Send
 									</button>
