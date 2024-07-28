@@ -32,7 +32,7 @@ export default function Skills() {
 					<div className="flex flex-wrap justify-evenly">
 						<Scrollable className="grid grid-flow-row grid-cols-3 lg:grid-rows-3 lg:grid-flow-col gap-2 mt-5 md:mx-10 py-4 text-white">
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiJavascript className="text-[#f2db30] text-[0.75rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -45,7 +45,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiTypescript className="text-[#3178C6] text-[0.75rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -58,7 +58,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<FaNodeJs className="text-[#43A047] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -71,7 +71,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<RiReactjsLine className="text-[#56C1DE] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -84,7 +84,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<DiPython className="text-[#306998] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -97,7 +97,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<TbBrandGolang className="text-[#3F9586] text-[1.5rem] md:text-[2rem] m-[-3px_-3px_-3px_0]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem] mt-[1px]"
@@ -110,7 +110,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiNextdotjs className="text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -123,7 +123,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<TbBrandReactNative className="text-[#E67972] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -136,7 +136,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiAmazonaws className="text-[#ffc107] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -149,7 +149,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<DiMysql className="text-[#389fe0] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -162,7 +162,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<DiMongodb className="text-[#4A944C] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -175,7 +175,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiPostgresql className="text-[#306998] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -188,7 +188,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiGooglecloud className="text-[#F5AD42] text-[1.1rem] md:text-[1.6rem] m-[-1.5px_-6px_-1.5px_0]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -201,7 +201,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiDocker className="text-[#06ade5] text-[1rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -214,7 +214,7 @@ export default function Skills() {
 								</button>
 							</div>
 							<div>
-								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-xl p-2.5 md:p-4 shadow-lg w-[97.5px] md:w-[150px] flex justify-evenly">
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<FaGitAlt className="text-[#ED4C34] text-[1.125rem] md:text-[1.75rem] m-[-1.5px_-10.5px_-1.5px_0]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"

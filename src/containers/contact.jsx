@@ -41,7 +41,7 @@ export default function Contact() {
 								<div className="grid grid-rows-2 grid-flow-col md:grid-cols-2 md:grid-rows-1 gap-4 w-full">
 									<div className="contact-element gap-2">
 										<input
-											className="icon-button bg-black placeholder-gray-700 text-sm md:text-md rounded-md p-3 relative w-full h-10 md:h-12"
+											className=" bg-black placeholder-gray-700 text-sm md:text-md rounded-md p-3 relative w-full h-10 md:h-12"
 											type="text"
 											name="Name"
 											placeholder="Your name"
@@ -55,7 +55,7 @@ export default function Contact() {
 									</div>
 									<div className="contact-element gap-2">
 										<input
-											className="icon-button bg-black placeholder-gray-700 text-sm md:text-md rounded-md p-3 relative w-full h-10 md:h-12"
+											className=" bg-black placeholder-gray-700 text-sm md:text-md rounded-md p-3 relative w-full h-10 md:h-12"
 											type="email"
 											name="Email"
 											placeholder="you@email.com"
@@ -74,7 +74,7 @@ export default function Contact() {
 									<div className="contact-element gap-2">
 										<textarea
 											rows={3}
-											className="icon-button bg-black placeholder-gray-700 text-sm md:text-md rounded-md p-3 w-full h-24 md:h-32"
+											className=" bg-black placeholder-gray-700 text-sm md:text-md rounded-md p-3 w-full h-24 md:h-32"
 											type="text"
 											name="Message"
 											placeholder="Your message goes here."
@@ -92,7 +92,7 @@ export default function Contact() {
 								<button
 									id="contact-submit"
 									type="submit"
-									className="w-3/4 md:w-4/12 py-2 px-6 md:px-8 md:text-sm font-bold rounded-lg hover:bg-white hover:text-black border-black border-2 bg-black text-gray-200 transition duration-300 text-xs text-center h-10 md:h-12 antialiased"
+									className=" w-1/4 py-2 px-6 md:px-8 md:text-sm font-bold rounded-lg hover:bg-white hover:text-black border-black border-2 bg-black text-gray-200 transition duration-300 text-xs text-center h-10 md:h-12 antialiased"
 								>
 									Send
 								</button>
