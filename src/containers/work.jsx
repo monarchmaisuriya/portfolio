@@ -6,8 +6,7 @@ export default function Work() {
 	return (
 		<div
 			id="work"
-			className="mx-auto text-white bg-black border-4 container border-black"
-		>
+			className="mx-auto text-white bg-black border-4 container border-black">
 			<div className="container mx-auto p-10 text-center">
 				<div>
 					<h1 className="text-2xl md:text-4xl black-text-shadow font-medium">
@@ -28,18 +27,17 @@ export default function Work() {
 											Wagease
 										</p>
 										<p className="text-[10px] md:text-xs my-2 text-left">
-											I created and oversee a payroll management Software as a
-											Service (SaaS) application. Responsible for its ongoing
-											development and maintenance, ensuring effective management
-											of employee salaries, taxes, and benefits within a
-											cloud-based platform.
+											I built a payroll management Software as a Service (SaaS)
+											application. And configured proper deployment
+											configurations ensuring effective management of employee
+											salaries, taxes, and benefits within a cloud-based
+											platform.
 										</p>
 										<p className="mt-6">
 											<a
 												href="https://www.wagease.com/"
 												target="_blank"
-												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300"
-											>
+												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
 												Learn More
 											</a>
 										</p>
@@ -61,18 +59,16 @@ export default function Work() {
 											Tenacity Writing
 										</p>
 										<p className="text-[10px] md:text-xs  my-2 text-left">
-											I created a web application streamlining tasks for a
-											writing company. It automates and organizes their
-											services, simplifying management. It enhances the
-											efficiency of the agency's operations, allowing smoother
-											service delivery.
+											I built a web application streamlining tasks for a writing
+											company. It automates and organizes their services,
+											simplifying management. It enhances the efficiency of the
+											agency's operations, allowing smoother service delivery.
 										</p>
 										<p className="mt-6">
 											<a
 												href="https://www.tenacitywriting.com/"
 												target="_blank"
-												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300"
-											>
+												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
 												Learn More
 											</a>
 										</p>
@@ -94,18 +90,17 @@ export default function Work() {
 											AttriOne
 										</p>
 										<p className="text-[10px] md:text-xs my-2 text-left">
-											I created and oversee a micro-SaaS solution simplifying
-											UTM link generation and management while offering
-											fundamental analytics. This tool efficiently assists in
-											creating and tracking links, enhancing marketing
-											strategies with user-friendly insights.
+											I built a micro-SaaS solution simplifying UTM link
+											generation and management while offering fundamental
+											analytics. This tool efficiently assists in creating and
+											tracking links, enhancing marketing strategies with
+											user-friendly insights.
 										</p>
 										<p className="mt-6">
 											<a
 												href="https://www.attri.one/"
 												target="_blank"
-												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300"
-											>
+												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
 												Learn More
 											</a>
 										</p>
@@ -139,8 +134,7 @@ export default function Work() {
 											<a
 												href="https://github.com/ingeniousambivert/Feathers-React-Starter"
 												target="_blank"
-												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300"
-											>
+												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
 												Learn More
 											</a>
 										</p>
@@ -155,12 +149,11 @@ export default function Work() {
 					<a
 						className="shadow-lg relative w-auto py-2 px-4 text-xs md:text-sm font-semibold antialiased rounded-md text-white hover:text-gray-400 transition duration-300"
 						href="https://github.com/ingeniousambivert?tab=repositories"
-						target="_blank"
-					>
+						target="_blank">
 						View More
 					</a>
 				</div>
 			</div>
 		</div>
-	);
+	)
 }
