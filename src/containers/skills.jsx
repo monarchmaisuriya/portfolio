@@ -8,14 +8,16 @@ import {
 	SiJavascript,
 	SiJest,
 	SiPostgresql,
-	SiRemix,
+	SiMocha,
 	SiCypress,
 	SiGooglecloud,
 	SiDocker,
 	SiNextdotjs,
 	SiAmazonaws,
-} from "react-icons/si";
-import Scrollable from "../components/scrollable";
+} from "react-icons/si"
+import { AiOutlineKubernetes } from "react-icons/ai"
+import { SiGithubactions } from "react-icons/si"
+import Scrollable from "../components/scrollable"
 
 export default function Skills() {
 	return (
@@ -38,8 +40,7 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://en.wikipedia.org/wiki/JavaScript"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										JavaScript
 									</a>
 								</button>
@@ -51,8 +52,7 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://www.typescriptlang.org/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										TypeScript
 									</a>
 								</button>
@@ -64,9 +64,8 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://nodejs.org/en"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
-										NodeJS
+										target="_blank">
+										Node.js
 									</a>
 								</button>
 							</div>
@@ -77,8 +76,7 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://reactjs.org/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										React
 									</a>
 								</button>
@@ -90,8 +88,7 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://www.python.org/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										Python
 									</a>
 								</button>
@@ -103,8 +100,7 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem] mt-[1px]"
 										href="https://go.dev/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										Go
 									</a>
 								</button>
@@ -116,25 +112,12 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://nextjs.org/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
-										NextJS
+										target="_blank">
+										Next
 									</a>
 								</button>
 							</div>
-							<div>
-								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
-									<TbBrandReactNative className="text-[#E67972] text-[1.125rem] md:text-[1.5rem]" />
-									<a
-										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
-										href="https://reactnative.dev/"
-										rel="noopener noreferrer"
-										target="_blank"
-									>
-										R-Native
-									</a>
-								</button>
-							</div>
+
 							<div>
 								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiAmazonaws className="text-[#ffc107] text-[1.125rem] md:text-[1.5rem]" />
@@ -142,12 +125,23 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://aws.amazon.com/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										AWS
 									</a>
 								</button>
 							</div>
+							{/* <div>
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<TbBrandReactNative className="text-[#E67972] text-[1.125rem] md:text-[1.5rem]" />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://reactnative.dev/"
+										rel="noopener noreferrer"
+										target="_blank">
+										R.Native
+									</a>
+								</button>
+							</div> */}
 							<div>
 								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<DiMysql className="text-[#389fe0] text-[1.125rem] md:text-[1.5rem]" />
@@ -155,8 +149,7 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://www.mysql.com/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										MySQL
 									</a>
 								</button>
@@ -168,22 +161,56 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://www.mongodb.com/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										MongoDB
 									</a>
 								</button>
 							</div>
 							<div>
 								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
-									<SiPostgresql className="text-[#306998] text-[1.125rem] md:text-[1.5rem]" />
+									<SiPostgresql className="text-[#4180b3] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://www.postgresql.org/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										Postgres
+									</a>
+								</button>
+							</div>
+							<div>
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<SiJest className="text-[#c94d44] text-[1.125rem] md:text-[1.5rem]" />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://jestjs.io/"
+										rel="noopener noreferrer"
+										target="_blank">
+										Jest
+									</a>
+								</button>
+							</div>
+							<div>
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<SiCypress className="text-[#52c89d] text-[1.125rem] md:text-[1.5rem]" />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://www.cypress.io/"
+										rel="noopener noreferrer"
+										target="_blank">
+										Cypress
+									</a>
+								</button>
+							</div>
+							<div>
+								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<SiMocha className="text-[#8d5640] text-[1.125rem] md:text-[1.5rem]" />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://mochajs.org/"
+										rel="noopener noreferrer"
+										target="_blank">
+										Mocha
 									</a>
 								</button>
 							</div>
@@ -194,12 +221,12 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://cloud.google.com/products"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										GCP
 									</a>
 								</button>
 							</div>
+
 							<div>
 								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiDocker className="text-[#06ade5] text-[1rem] md:text-[1.5rem]" />
@@ -207,8 +234,7 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://www.docker.com/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										Docker
 									</a>
 								</button>
@@ -220,9 +246,20 @@ export default function Skills() {
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://git-scm.com/"
 										rel="noopener noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										Git
+									</a>
+								</button>
+							</div>
+							<div>
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<SiGithubactions className=" text-[1.125rem] md:text-[1.75rem] m-[-1.5px_-10.5px_-1.5px_0]" />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://en.wikipedia.org/wiki/CI/CD"
+										rel="noopener noreferrer"
+										target="_blank">
+										CI/CD
 									</a>
 								</button>
 							</div>
@@ -235,5 +272,5 @@ export default function Skills() {
 				</div>
 			</div>
 		</div>
-	);
+	)
 }

@@ -92,8 +92,7 @@ export default function Contact() {
 								<button
 									id="contact-submit"
 									type="submit"
-									className=" w-1/4 py-2 px-6 md:px-8 md:text-sm font-bold rounded-lg hover:bg-white hover:text-black border-black border-2 bg-black text-gray-200 transition duration-300 text-xs text-center h-10 md:h-12 antialiased"
-								>
+									className="text-center w-2/4 md:w-1/4 py-2 px-6 md:px-8 md:text-sm font-bold rounded-lg hover:bg-white hover:text-black border-black border-2 bg-black text-gray-200 transition duration-300 text-xs h-10 md:h-12 antialiased">
 									Send
 								</button>
 							</div>
@@ -101,6 +100,6 @@ export default function Contact() {
 					</div>
 				</div>
 			</div>
-		);
+		)
 	}
 }
