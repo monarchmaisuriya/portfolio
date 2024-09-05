@@ -13,23 +13,23 @@ export default function Footer({ quote }) {
 						<div>
 							<ul className="flex flex-row justify-center md:justify-end mb-2 gap-4">
 								<li className="text-lg md:text-xl hover:text-gray-400 text-white rounded-full transition duration-300">
-									<a href="mailto:monarchmaisuriya@gmail.com" target="_blank">
+									<a
+										href="mailto:businesswithmonarch@gmail.com"
+										target="_blank">
 										<FaEnvelope />
 									</a>
 								</li>
 								<li className="text-lg md:text-xl hover:text-gray-400 text-white rounded-full transition duration-300">
 									<a
 										href="https://github.com/ingeniousambivert"
-										target="_blank"
-									>
+										target="_blank">
 										<FaGithub />
 									</a>
 								</li>
 								<li className="text-lg md:text-xl hover:text-gray-400 text-white transition duration-300">
 									<a
 										href="https://www.linkedin.com/in/monarchmaisuriya/"
-										target="_blank"
-									>
+										target="_blank">
 										<FaLinkedin />
 									</a>
 								</li>
@@ -39,5 +39,5 @@ export default function Footer({ quote }) {
 				</div>
 			</div>
 		</footer>
-	);
+	)
 }
