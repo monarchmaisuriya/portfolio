@@ -1,8 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { DiMysql, DiMongodb, DiPython } from "react-icons/di";
-import { TbBrandReactNative, TbBrandGolang } from "react-icons/tb";
-import { FaGitAlt } from "react-icons/fa6";
-import { FaNodeJs } from "react-icons/fa";
+import { DiMysql, DiMongodb, DiPython } from "react-icons/di"
+import { TbBrandReactNative, TbBrandGolang } from "react-icons/tb"
+import { FaGitAlt } from "react-icons/fa6"
+import { FaNodeJs } from "react-icons/fa"
 import {
 	SiTypescript,
 	SiJavascript,
@@ -14,6 +14,8 @@ import {
 	SiDocker,
 	SiNextdotjs,
 	SiAmazonaws,
+	SiRedis,
+	SiVitest,
 } from "react-icons/si"
 import { AiOutlineKubernetes } from "react-icons/ai"
 import { SiGithubactions } from "react-icons/si"
@@ -32,7 +34,7 @@ export default function Skills() {
 					</div>
 
 					<div className="flex flex-wrap justify-evenly">
-						<Scrollable className="grid grid-flow-row grid-cols-3 lg:grid-rows-3 lg:grid-flow-col gap-2 mt-5 md:mx-10 py-4 text-white">
+						<Scrollable className="grid grid-flow-row grid-cols-3 lg:grid-rows-4 lg:grid-flow-col gap-2 mt-5 md:mx-10 py-4 text-white">
 							<div>
 								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiJavascript className="text-[#f2db30] text-[0.75rem] md:text-[1.15rem] m-[4px_2px_0_0]" />
@@ -204,7 +206,7 @@ export default function Skills() {
 							</div>
 							<div>
 								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
-									<SiMocha className="text-[#8d5640] text-[1.125rem] md:text-[1.5rem]" />
+									<SiMocha className="text-[#8d5640] text-[1.125rem] md:text-[1.65rem] m-[-1.5px_0_0_0]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
 										href="https://mochajs.org/"
@@ -239,6 +241,19 @@ export default function Skills() {
 									</a>
 								</button>
 							</div>
+
+							<div>
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<SiVitest className="text-[#f4eb68] text-[1.125rem] md:text-[1.5rem] m-[-1px_-10.5px_-1.5px_0]" />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://vitest.dev/"
+										rel="noopener noreferrer"
+										target="_blank">
+										Vitest
+									</a>
+								</button>
+							</div>
 							<div>
 								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<FaGitAlt className="text-[#ED4C34] text-[1.125rem] md:text-[1.75rem] m-[-1.5px_-10.5px_-1.5px_0]" />
@@ -253,13 +268,25 @@ export default function Skills() {
 							</div>
 							<div>
 								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
-									<SiGithubactions className=" text-[1.125rem] md:text-[1.75rem] m-[-1.5px_-10.5px_-1.5px_0]" />
+									<SiRedis className="text-[#f7725e] text-[1.125rem] md:text-[1.75rem] m-[-1.5px_-10.5px_-1.5px_0]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
-										href="https://en.wikipedia.org/wiki/CI/CD"
+										href="https://redis.io/"
 										rel="noopener noreferrer"
 										target="_blank">
-										CI/CD
+										&nbsp;Redis
+									</a>
+								</button>
+							</div>
+							<div>
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<AiOutlineKubernetes className="text-[#4d83e2] text-[1.125rem] md:text-[1.6rem] " />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://kubernetes.io/"
+										rel="noopener noreferrer"
+										target="_blank">
+										&nbsp;Kubernetes
 									</a>
 								</button>
 							</div>
