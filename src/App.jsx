@@ -24,7 +24,7 @@ export default function App() {
 						<Work />
 						<Contact />
 						<Footer quote={quote} />
-						<div className="container flex justify-center px-4 my-9 text-[10px] md:text-xs font-semibold antialiased">
+						<div className="flex justify-center px-4 my-9 text-[10px] md:text-xs font-semibold antialiased">
 							By&nbsp;
 							<a
 								className="hover:text-gray-800"

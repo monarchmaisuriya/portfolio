@@ -1,4 +1,4 @@
-import { RiReactjsLine } from "react-icons/ri";
+import { RiReactjsLine } from "react-icons/ri"
 import { DiMysql, DiMongodb, DiPython } from "react-icons/di"
 import { TbBrandReactNative, TbBrandGolang } from "react-icons/tb"
 import { FaGitAlt } from "react-icons/fa6"
@@ -16,9 +16,11 @@ import {
 	SiAmazonaws,
 	SiRedis,
 	SiVitest,
+	SiPytest,
+	SiSwagger,
+	SiGithubactions,
 } from "react-icons/si"
 import { AiOutlineKubernetes } from "react-icons/ai"
-import { SiGithubactions } from "react-icons/si"
 import Scrollable from "../components/scrollable"
 
 export default function Skills() {
@@ -132,7 +134,7 @@ export default function Skills() {
 									</a>
 								</button>
 							</div>
-							{/* <div>
+							<div>
 								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<TbBrandReactNative className="text-[#E67972] text-[1.125rem] md:text-[1.5rem]" />
 									<a
@@ -140,10 +142,10 @@ export default function Skills() {
 										href="https://reactnative.dev/"
 										rel="noopener noreferrer"
 										target="_blank">
-										R.Native
+										Re-Native
 									</a>
 								</button>
-							</div> */}
+							</div>
 							<div>
 								<button className="bg-black hover:bg-white hover:border-black border-2 hover:text-black transition duration-300 rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<DiMysql className="text-[#389fe0] text-[1.125rem] md:text-[1.5rem]" />
@@ -244,6 +246,19 @@ export default function Skills() {
 
 							<div>
 								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<SiGithubactions className="text-[#06ade5] text-[1rem] md:text-[1.5rem]" />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://en.wikipedia.org/wiki/CI/CD"
+										rel="noopener noreferrer"
+										target="_blank">
+										CI/CD
+									</a>
+								</button>
+							</div>
+
+							<div>
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
 									<SiVitest className="text-[#f4eb68] text-[1.125rem] md:text-[1.5rem] m-[-1px_-10.5px_-1.5px_0]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
@@ -251,6 +266,18 @@ export default function Skills() {
 										rel="noopener noreferrer"
 										target="_blank">
 										Vitest
+									</a>
+								</button>
+							</div>
+							<div>
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<SiPytest className="text-[#306998] text-[1.125rem] md:text-[1.5rem] m-[-1px_-10.5px_-1.5px_0]" />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://docs.pytest.org/en/stable/"
+										rel="noopener noreferrer"
+										target="_blank">
+										PyTest
 									</a>
 								</button>
 							</div>
@@ -287,6 +314,18 @@ export default function Skills() {
 										rel="noopener noreferrer"
 										target="_blank">
 										&nbsp;Kubernetes
+									</a>
+								</button>
+							</div>
+							<div>
+								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
+									<SiSwagger className="text-[#54d99e] text-[1.125rem] md:text-[1.6rem] " />
+									<a
+										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
+										href="https://swagger.io/"
+										rel="noopener noreferrer"
+										target="_blank">
+										&nbsp;Swagger
 									</a>
 								</button>
 							</div>
