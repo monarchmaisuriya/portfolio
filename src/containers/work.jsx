@@ -87,7 +87,7 @@ export default function Work() {
 								<div className="work-card-overlay">
 									<div className="work-card-text overflow-y-auto">
 										<p className="text-xs md:text-lg font-semibold mb-2 text-left">
-											AttriOne
+											AttriOne (Audiencely)
 										</p>
 										<p className="text-[10px] md:text-xs my-2 text-left">
 											I built a micro-SaaS solution simplifying UTM link
@@ -98,7 +98,7 @@ export default function Work() {
 										</p>
 										<p className="mt-6">
 											<a
-												href="https://www.attri.one/"
+												href="https://www.audiencelyhq.com/"
 												target="_blank"
 												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
 												Learn More
