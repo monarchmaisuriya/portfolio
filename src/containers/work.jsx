@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-import Scrollable from "../components/scrollable";
+import React from "react"
+import Scrollable from "../components/scrollable"
 
 export default function Work() {
 	return (
@@ -132,7 +132,7 @@ export default function Work() {
 										</p>
 										<p className="mt-6">
 											<a
-												href="https://github.com/ingeniousambivert/Feathers-React-Starter"
+												href="https://github.com/monarchmaisuriya/Feathers-React-Starter"
 												target="_blank"
 												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
 												Learn More
@@ -148,7 +148,7 @@ export default function Work() {
 				<div className="flex justify-center mt-5">
 					<a
 						className="shadow-lg relative w-auto py-2 px-4 text-xs md:text-sm font-semibold antialiased rounded-md text-white hover:text-gray-400 transition duration-300"
-						href="https://github.com/ingeniousambivert?tab=repositories"
+						href="https://github.com/monarchmaisuriya?tab=repositories"
 						target="_blank">
 						View More
 					</a>
