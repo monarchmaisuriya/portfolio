@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6"
 export default function Footer({ quote }) {
 	return (
 		<footer className="mx-auto bg-black p-2 text-white rounded-b-md container border-4 border-black ">
@@ -20,9 +20,7 @@ export default function Footer({ quote }) {
 									</a>
 								</li>
 								<li className="text-lg md:text-xl hover:text-gray-400 text-white rounded-full transition duration-300">
-									<a
-										href="https://github.com/ingeniousambivert"
-										target="_blank">
+									<a href="https://github.com/monarchmaisuriya" target="_blank">
 										<FaGithub />
 									</a>
 								</li>
